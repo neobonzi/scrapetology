@@ -3,6 +3,7 @@ import requests
 
 page = requests.get('https://en.wikipedia.org/wiki/List_of_American_Civil_War_battles')
 tree = html.fromstring(page.content)
+tree.make_links_absolute('https://en.wikipedia.org')
 
 battles = tree.xpath('//table[2]/tr/td[1]/a[1]/text()')
 battleLinks = tree.xpath('//table[2]/tr/td[1]/a[1]/@href')
