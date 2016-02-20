@@ -1,5 +1,6 @@
 from lxml import html
 import requests
+import re
 
 wikipediaBaseURI = 'https://en.wikipedia.org'
 
@@ -38,7 +39,8 @@ def scrape_battles():
 def scrape_generals(battles):
     generals = {}
     
-    # testing only 3 battles for now
+    # testing only 5 battles for now - good to 5
+    # test 5-10
     for battle in battles:
         names = []
         links = []
@@ -64,7 +66,44 @@ def scrape_generals(battles):
     print 'size dictionary: ', len(generals)
     return generals
 
+def input_generals():
+    generals = {}
+    with open('list_generals.txt','r') as file_in:
+        for line in file_in:
+            (key, value) = line.split(":", 1)
+            # print 'key: ', key[1:-1]
+            # print 'value: ', value[2:-4]
+            generals[key[1:-1]] = value[2:-4]
+    return generals
+
+from bs4 import BeautifulSoup as bs
+
+def scrape_generals(generals_dict):
+    print 'link: ', generals_dict.values()[1]
+    respond = requests.get(generals_dict.values()[1])
+    soup = bs(respond.text)
+    # print 'bday: ', t.find(class="bday")
+    
+    rows = soup.find("table").find("tbody").find_all("tr")
+    # rows = soup.find("table")
+    for row in rows:
+        print row
+    #     cells = row.find_all("td")
+    #     rn = cells[0].get_text()
+    #     print rn
+    # and so on
+    # print 'bday: ', soup.title
+    # for i in t:
+    #     try:
+    #         # print i.find('span').get_text()[-5:], i.find('a').get_text()
+    #         print i
+    #     except AttributeError:
+    #         pass    
+    
+        
 if __name__ == '__main__':
-    battles = scrape_battles()
+    # battles = scrape_battles()
     # print 'battles: ', battles[:3]
-    scrape_generals(battles)
+    # scrape_generals(battles)
+    generals = input_generals()
+    scrape_generals(generals)
