@@ -6,6 +6,7 @@ import sys
 import logging
 
 from bs4 import BeautifulSoup as bs
+import urllib
 from urllib import request
 
 import json
@@ -83,7 +84,7 @@ class Ontology(object):
         self.base = base_url
         self.base_category = Category.get_title(base_category_url)
         self.base_category_url = base_category_url
-        self.name = base_url.replace('http://','').split('.')[0] + self.base_category
+        self.name = base_url.replace('http://','').split('.')[0] + '_' + self.base_category.replace('wiki/','')
         self.categories = None
         self.instances = None
         return
@@ -94,8 +95,15 @@ class Ontology(object):
     def get_pickle_name(self):
         return '{}.pickle'.format(self.name)
     def get_category_page(self, category_url):
-        full_url = self.base + category_url
-        read_page = request.urlopen(full_url)
+        soup = None
+        full_url = self.base + category_url.strip('/')
+        try:
+            read_page = request.urlopen(full_url)
+        except urllib.error.HTTPError:
+            print('urllib.error.HTTPError:{}'.format(full_url))
+            with open('err_file.log', 'a') as file:
+                print('urllib.error.HTTPError:{}'.format(full_url), file=file)
+            sys.exit(1)
         soup = bs(read_page, "lxml")
         return soup
     def get_child_categories(self, soup):
@@ -161,12 +169,13 @@ class Ontology(object):
                 seen = i_title in self.instances
                 if seen:
                     print('SEEN:{}:{}'.format(path, i_title))
+                    instance = self.instances[i_title]
                 else:
                     instance = Instance(i_href, i_title)
                     print('INS|{}::{}'.format(path, i_title))
-                    instance.add_parent(title)
-                    category.add_instance(i_title)
                     self.instances[i_title] = instance
+                instance.add_parent(title)
+                category.add_instance(i_title)
         return
     def get_ontology(self):
         if self.categories and self.instances:
