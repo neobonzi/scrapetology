@@ -1,6 +1,9 @@
+#! /usr/bin/env python3
+
 import __future__
+
 # import pickle
-# import sys
+import sys
 # sys.path.insert(0, '/mnt/DATA/school/CPE581/scrapetology/category')
 # from build_ontology import *
 # import pprint
@@ -108,7 +111,12 @@ def test():
     # graph.add( (linda, OWL.name, Literal('Linda') ) )
     # graph.add( (linda, OWL.age, Literal(24)) )
 
-    print (graph.serialize(format='xml'))
+    #print (graph.serialize(format='xml', encoding='utf-8'))
+    graph_filename = 'test.xml'
+    graph.serialize(graph_filename, format='pretty-xml', encoding='utf-8')
+    with open(graph_filename) as file:
+        for line in file:
+            print(line, end='')
 
 if __name__ == '__main__':
     # main()
