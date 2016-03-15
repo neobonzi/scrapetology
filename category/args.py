@@ -19,6 +19,7 @@ def get_arg_parser(description):
                                    description=description,
                                    formatter_class=SmartFormatter
                                    )
+                                   
 DESC = 'Scrapes the category section of Star Wars to automatically build an ontology.'
 def args_build_ontology(description=DESC):
     arg_parser = get_arg_parser(description)
@@ -28,3 +29,17 @@ def args_build_ontology(description=DESC):
                             help='wiki XML file',
                             required=True)
     return arg_parser
+    
+def args_build_graph():
+  description = 'Uses data scraped from the Star Wars wikia website to generate a rdf/xml graph'
+  arg_parser = get_arg_parser(description)
+  req = parser.add_argument_group('required arguments')
+
+  req.add_argument('-f', '--filename',
+                   required=True, 
+                   action='store',
+                   metavar='<filename>', 
+                   nargs=1, 
+                   help='RDF/XML graph generator')
+
+  return arg_parser
