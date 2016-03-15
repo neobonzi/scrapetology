@@ -20,7 +20,7 @@ from json import JSONEncoder
 
 sys.path.append(os.getcwd())
 
-START_BASE_URL='http://starwars.wikia.com/'
+START_BASE_URL='http://starwars.wikia.com'
 START_CAT_URL='wiki/Category:In-universe_articles'
 #START_CAT_URL='/wiki/Category:Products_by_company'
 #START_CAT_URL='Category:Individuals_by_species'
@@ -49,9 +49,9 @@ class HTMLWikiParser(WikiParser):
         LOGGER.debug('FETCHING:{}'.format(url))
         try:
             read_page = request.urlopen(url)
-        except urllib.error.HTTPError:
+        except urllib.error.HTTPError as e:
             LOGGER.error('urllib.error.HTTPError:{}'.format(full_url))
-            raise
+            raise e
         soup = bs(read_page, "lxml")
         return soup
     def get_categories(self):
