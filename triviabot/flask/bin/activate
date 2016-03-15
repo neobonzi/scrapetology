@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/JBillz/Development/CPE581/Project/Scrapetology/triviabot/flask"
+VIRTUAL_ENV="/var/www/triviabot/flask"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
