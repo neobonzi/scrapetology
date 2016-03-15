@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Welcome to the Star Wars Trivia Bot!</h2>
+    <div class="row">
+        <form action="/query" method="post" name="queryForm" class="form-horizontal" role="form">
+        {{ form.hidden_tag() }}
+        <div class="col-sm-12">
+        <input type="text" name="query" class="query-box form-control" placeholder="Enter your question">
+        </div>
+    </div>
+{% endblock %}
