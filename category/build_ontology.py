@@ -21,9 +21,9 @@ from json import JSONEncoder
 sys.path.append(os.getcwd())
 
 START_BASE_URL='http://starwars.wikia.com'
-START_CAT_URL='wiki/Category:In-universe_articles'
+START_CAT_URL='/wiki/Category:In-universe_articles'
 #START_CAT_URL='/wiki/Category:Products_by_company'
-#START_CAT_URL='Category:Individuals_by_species'
+#START_CAT_URL='/wiki/Category:Individuals_by_species'
 CAT_ELEMENT_TAG='CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory'
 
 DELIM='~'
@@ -50,7 +50,7 @@ class HTMLWikiParser(WikiParser):
         try:
             read_page = request.urlopen(url)
         except urllib.error.HTTPError as e:
-            LOGGER.error('urllib.error.HTTPError:{}'.format(full_url))
+            LOGGER.error('urllib.error.HTTPError:{}'.format(url))
             raise e
         soup = bs(read_page, "lxml")
         return soup
