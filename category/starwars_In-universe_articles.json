@@ -1,0 +1,2048 @@
+{
+    "base": "http://starwars.wikia.com",
+    "base_category": "In-universe_articles",
+    "base_category_url": "/wiki/Category:In-universe_articles",
+    "categories": {
+        "Artifacts": {
+            "children": [
+                "Force-sensitive_objects",
+                "Sacred_items"
+            ],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Artifacts",
+            "href": "/wiki/Category:Artifacts",
+            "instances": [
+                "Mark of the Hero",
+                "Alsakan Tessent",
+                "Ciratu Spheres",
+                "Power gem",
+                "Diatian Clockwork",
+                "Nojic Beanstalk",
+                "Pendant of Bone",
+                "Globe of Peace",
+                "Ch'hosk Cave Drawings",
+                "Cirra Mace",
+                "Orb of Passage",
+                "Dancing Goddess",
+                "Talisman (artifact)",
+                "The Package (object)",
+                "Nova Crystal",
+                "Sharka'k Noor",
+                "Toydarian clan bell",
+                "Brass Soldiers of Axum",
+                "Eye of the Albino Cyclops",
+                "Wind drum",
+                "Kadlo Talisman",
+                "Luminous Bantha",
+                "Dagger of Mortis/Legends",
+                "Key of Exile",
+                "Tarasin amulet",
+                "Khoz'zhak",
+                "Bacca's Ceremonial Blade",
+                "Ryloth Ark",
+                "Mandalore's Mask",
+                "Antique Twi'lek pots",
+                "Darth Vader figurine",
+                "Gung Slabs",
+                "Packet of information",
+                "Unidentified tome",
+                "Ceremonial staff of the Supreme Chancellor",
+                "Kharrus's staff",
+                "Mindharp",
+                "Chalcedony waves",
+                "The Eye of the Beyonder",
+                "Arachedron sculpture",
+                "Statue of Qui-Gon Jinn",
+                "Crystal artifact",
+                "Penegelen Shards",
+                "Fabled Key",
+                "Wraith Box",
+                "Staff of Command",
+                "Chieftain's skull",
+                "D'vouran amulet",
+                "Minstrel",
+                "Three Great Works",
+                "Padm\u00e9 Amidala's amulet",
+                "Shadow Traproom",
+                "Organa's Ceremonial Necklace",
+                "Trandoshan relic",
+                "Eye of Koda",
+                "Amulet of Trust",
+                "Magic rock",
+                "Um'Tal",
+                "Quilan Pyradex",
+                "Syned I obelisk",
+                "Plaque of Victory",
+                "Korendum",
+                "Pearl of Wisdom",
+                "Spiral mist-horn",
+                "Comark Brooch",
+                "Shard (Oblee)",
+                "Mendacian funeral urn",
+                "Trinity Stones",
+                "Black Sphere",
+                "Jewel of Yavin",
+                "Unidentified Kwa artifact",
+                "Yavin Vassilika",
+                "Statue of Emperor Palpatine",
+                "Crown Jewels of Alderaan",
+                "Roonstone",
+                "Incense burner",
+                "Magic wand",
+                "Gusepp's Hand",
+                "Panteer crown",
+                "Tyia amulet",
+                "Globe of Peace/Legends",
+                "Empress Teta's Crown Jewels",
+                "Ou'tranoi",
+                "Relics",
+                "Ianane Ring",
+                "Soul snare",
+                "Aur Diamonds",
+                "Star of Kala'unn",
+                "Sand Crown of Ruul",
+                "Great Subcrustal Tubeway",
+                "Sand People Carving",
+                "Shipwright's Tools",
+                "Crystal skull",
+                "Foran Tutha star probe",
+                "Arkudan gaming cube"
+            ],
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Artifacts"
+        },
+        "Dark_side_artifacts": {
+            "children": [
+                "Sith_artifacts",
+                "Nightsister_talismans"
+            ],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Dark_side_artifacts",
+            "href": "/wiki/Category:Dark_side_artifacts",
+            "instances": [
+                "Hand artifact",
+                "Kashi Mer talisman",
+                "War Blade",
+                "Nightsister Force crystal",
+                "Dark side artifact",
+                "Soul stealer",
+                "Soulsaber",
+                "Taurannik Codex"
+            ],
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Dark_side_artifacts"
+        },
+        "Force-sensitive_objects": {
+            "children": [
+                "Dark_side_artifacts",
+                "Holocrons",
+                "Jedi_artifacts"
+            ],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Force-sensitive_objects",
+            "href": "/wiki/Category:Force-sensitive_objects",
+            "instances": [
+                "Shadowstone",
+                "Lignan",
+                "Light side artifact",
+                "Savage Opress's pike",
+                "The Imprisoned One's mind prison",
+                "Space\u2013time-warping gate",
+                "Sunstar",
+                "Crystal Cloak",
+                "Cybernetic chamber",
+                "Zarrak's medallion",
+                "Stone mirror",
+                "Crystal image spinner",
+                "Tulpaa mind prison",
+                "Mind prison",
+                "Force artifact",
+                "Living sphere",
+                "Artusian crystal",
+                "Shard of Retaliation",
+                "Season scepter",
+                "Totem Master's ring",
+                "Essence Stealer",
+                "Prophecy pool",
+                "Fell Star",
+                "Ice mirror",
+                "Star Map",
+                "Codex",
+                "Jadru's crystal ball",
+                "Staff of Morag",
+                "Totem of the Elementals",
+                "Force detector",
+                "Infant of Shaa",
+                "Void Stone",
+                "Staff of Logray",
+                "Totem of Familiars",
+                "Mystical stone"
+            ],
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Force-sensitive_objects"
+        },
+        "In-universe_articles": {
+            "children": [
+                "Locations",
+                "Hoaxes",
+                "Awards",
+                "Lists",
+                "Tactics",
+                "Time",
+                "Science",
+                "Society",
+                "Products",
+                "Easter_Egg_articles",
+                "Finance",
+                "Artifacts"
+            ],
+            "full_url": "http://starwars.wikia.com/wiki/Category:In-universe_articles",
+            "href": "/wiki/Category:In-universe_articles",
+            "instances": [
+                "Veelgeg",
+                "Sea skimmer",
+                "Dianoga Heart",
+                "Jelly block",
+                "Morodin/Canon",
+                "Tail stinger wrap",
+                "Gandok",
+                "Spirit Heart",
+                "Will-o'-the-wisp"
+            ],
+            "parents": [],
+            "title": "In-universe_articles"
+        },
+        "Nightsister_talismans": {
+            "children": [],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Nightsister_talismans",
+            "href": "/wiki/Category:Nightsister_talismans",
+            "instances": [
+                "Talisman of the Burra Fish",
+                "Talisman of the Brackaset",
+                "Talisman of Age",
+                "Talisman of Transformation",
+                "Talisman of the Eollu",
+                "Talisman of Finding",
+                "Talisman of the Bolma",
+                "Talisman of Counterspell",
+                "Talisman of the Raven",
+                "Talisman of Resurrection"
+            ],
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Nightsister_talismans"
+        },
+        "Sith_artifacts": {
+            "children": [
+                "Sith_amulets",
+                "Sith_holocrons",
+                "Tulak_Hord%27s_artifacts",
+                "Sith_crystals",
+                "Darth_Wyyrlok%27s_library",
+                "Sith_sarcophagi"
+            ],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Sith_artifacts",
+            "href": "/wiki/Category:Sith_artifacts",
+            "instances": [
+                "Scepter of Ragnos",
+                "Sith Chalice",
+                "Embrace of Pain",
+                "Temple of Sacrifice artifact",
+                "Unidentified Sith artifact",
+                "Revan's mask",
+                "Sith spellbook",
+                "Eye of Horak-mul",
+                "Sith sarcophagus",
+                "Jorak Uln's Sith tablet",
+                "Unidentified Sith statues",
+                "Sith artifact",
+                "Krayiss Obelisk",
+                "Dromund Fels oubliette",
+                "Gauntlet of Kressh the Younger",
+                "Dreypa's Oubliette",
+                "Seeds of Rage",
+                "Force Disperser",
+                "Freedon Nadd's short lightsaber",
+                "Helm of Ieldis",
+                "Spirit urn",
+                "Mask of Darth Nihilus",
+                "Ludo Kressh's pedicure set",
+                "Emperor's cane",
+                "Exar Kun's lightsaber",
+                "Red Engine",
+                "Oubliette (stasis casket)",
+                "Sith manuscript",
+                "Books of Massassi",
+                "Yoke of Seeming",
+                "Sith Jedi Statue",
+                "Mirr",
+                "Sith apparel",
+                "Phobis devices",
+                "Sith power source",
+                "Bracers of Najus",
+                "Horak-mul's ceremonial robe",
+                "Genesis pool",
+                "Ancient Sith ritual altar",
+                "Helm of Dathka Graush",
+                "Sith scroll",
+                "Shadow Crown",
+                "Speaker's staff",
+                "Dor Gal-ram and Horak-mul's tablets",
+                "Sith Holocron repository",
+                "Kallig's Countenance",
+                "Aleema Keto's robe",
+                "Marka Ragnos' gauntlets",
+                "Ludo Kressh's armband",
+                "Bane Statue",
+                "Darkstaff",
+                "Sith regenerator",
+                "Tulak Hord's mask",
+                "Crado's robe",
+                "Sith tome (Dromund Kaas Academy)",
+                "Phobis Core",
+                "Ravager (device)",
+                "Lorrd Artifact",
+                "Great Hyperspace War Bas-Relief"
+            ],
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Sith_artifacts"
+        }
+    },
+    "instances": {
+        "Aleema Keto's robe": {
+            "full_url": "http://starwars.wikia.com/wiki/Aleema_Keto%27s_robe",
+            "href": "/wiki/Aleema_Keto%27s_robe",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Aleema Keto's robe"
+        },
+        "Alsakan Tessent": {
+            "full_url": "http://starwars.wikia.com/wiki/Alsakan_Tessent",
+            "href": "/wiki/Alsakan_Tessent",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Alsakan Tessent"
+        },
+        "Amulet of Trust": {
+            "full_url": "http://starwars.wikia.com/wiki/Amulet_of_Trust",
+            "href": "/wiki/Amulet_of_Trust",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Amulet of Trust"
+        },
+        "Ancient Sith ritual altar": {
+            "full_url": "http://starwars.wikia.com/wiki/Ancient_Sith_ritual_altar",
+            "href": "/wiki/Ancient_Sith_ritual_altar",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Ancient Sith ritual altar"
+        },
+        "Antique Twi'lek pots": {
+            "full_url": "http://starwars.wikia.com/wiki/Antique_Twi%27lek_pots",
+            "href": "/wiki/Antique_Twi%27lek_pots",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Antique Twi'lek pots"
+        },
+        "Arachedron sculpture": {
+            "full_url": "http://starwars.wikia.com/wiki/Arachedron_sculpture",
+            "href": "/wiki/Arachedron_sculpture",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Arachedron sculpture"
+        },
+        "Arkudan gaming cube": {
+            "full_url": "http://starwars.wikia.com/wiki/Arkudan_gaming_cube",
+            "href": "/wiki/Arkudan_gaming_cube",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Arkudan gaming cube"
+        },
+        "Artusian crystal": {
+            "full_url": "http://starwars.wikia.com/wiki/Artusian_crystal",
+            "href": "/wiki/Artusian_crystal",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Artusian crystal"
+        },
+        "Aur Diamonds": {
+            "full_url": "http://starwars.wikia.com/wiki/Aur_Diamonds",
+            "href": "/wiki/Aur_Diamonds",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Aur Diamonds"
+        },
+        "Bacca's Ceremonial Blade": {
+            "full_url": "http://starwars.wikia.com/wiki/Bacca%27s_Ceremonial_Blade",
+            "href": "/wiki/Bacca%27s_Ceremonial_Blade",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Bacca's Ceremonial Blade"
+        },
+        "Bane Statue": {
+            "full_url": "http://starwars.wikia.com/wiki/Bane_Statue",
+            "href": "/wiki/Bane_Statue",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Bane Statue"
+        },
+        "Black Sphere": {
+            "full_url": "http://starwars.wikia.com/wiki/Black_Sphere",
+            "href": "/wiki/Black_Sphere",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Black Sphere"
+        },
+        "Books of Massassi": {
+            "full_url": "http://starwars.wikia.com/wiki/Books_of_Massassi",
+            "href": "/wiki/Books_of_Massassi",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Books of Massassi"
+        },
+        "Bracers of Najus": {
+            "full_url": "http://starwars.wikia.com/wiki/Bracers_of_Najus",
+            "href": "/wiki/Bracers_of_Najus",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Bracers of Najus"
+        },
+        "Brass Soldiers of Axum": {
+            "full_url": "http://starwars.wikia.com/wiki/Brass_Soldiers_of_Axum",
+            "href": "/wiki/Brass_Soldiers_of_Axum",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Brass Soldiers of Axum"
+        },
+        "Ceremonial staff of the Supreme Chancellor": {
+            "full_url": "http://starwars.wikia.com/wiki/Ceremonial_staff_of_the_Supreme_Chancellor",
+            "href": "/wiki/Ceremonial_staff_of_the_Supreme_Chancellor",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Ceremonial staff of the Supreme Chancellor"
+        },
+        "Ch'hosk Cave Drawings": {
+            "full_url": "http://starwars.wikia.com/wiki/Ch%27hosk_Cave_Drawings",
+            "href": "/wiki/Ch%27hosk_Cave_Drawings",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Ch'hosk Cave Drawings"
+        },
+        "Chalcedony waves": {
+            "full_url": "http://starwars.wikia.com/wiki/Chalcedony_waves",
+            "href": "/wiki/Chalcedony_waves",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Chalcedony waves"
+        },
+        "Chieftain's skull": {
+            "full_url": "http://starwars.wikia.com/wiki/Chieftain%27s_skull",
+            "href": "/wiki/Chieftain%27s_skull",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Chieftain's skull"
+        },
+        "Ciratu Spheres": {
+            "full_url": "http://starwars.wikia.com/wiki/Ciratu_Spheres",
+            "href": "/wiki/Ciratu_Spheres",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Ciratu Spheres"
+        },
+        "Cirra Mace": {
+            "full_url": "http://starwars.wikia.com/wiki/Cirra_Mace",
+            "href": "/wiki/Cirra_Mace",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Cirra Mace"
+        },
+        "Codex": {
+            "full_url": "http://starwars.wikia.com/wiki/Codex",
+            "href": "/wiki/Codex",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Codex"
+        },
+        "Comark Brooch": {
+            "full_url": "http://starwars.wikia.com/wiki/Comark_Brooch",
+            "href": "/wiki/Comark_Brooch",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Comark Brooch"
+        },
+        "Crado's robe": {
+            "full_url": "http://starwars.wikia.com/wiki/Crado%27s_robe",
+            "href": "/wiki/Crado%27s_robe",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Crado's robe"
+        },
+        "Crown Jewels of Alderaan": {
+            "full_url": "http://starwars.wikia.com/wiki/Crown_Jewels_of_Alderaan",
+            "href": "/wiki/Crown_Jewels_of_Alderaan",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Crown Jewels of Alderaan"
+        },
+        "Crystal Cloak": {
+            "full_url": "http://starwars.wikia.com/wiki/Crystal_Cloak",
+            "href": "/wiki/Crystal_Cloak",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Crystal Cloak"
+        },
+        "Crystal artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Crystal_artifact",
+            "href": "/wiki/Crystal_artifact",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Crystal artifact"
+        },
+        "Crystal image spinner": {
+            "full_url": "http://starwars.wikia.com/wiki/Crystal_image_spinner",
+            "href": "/wiki/Crystal_image_spinner",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Crystal image spinner"
+        },
+        "Crystal skull": {
+            "full_url": "http://starwars.wikia.com/wiki/Crystal_skull",
+            "href": "/wiki/Crystal_skull",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Crystal skull"
+        },
+        "Cybernetic chamber": {
+            "full_url": "http://starwars.wikia.com/wiki/Cybernetic_chamber",
+            "href": "/wiki/Cybernetic_chamber",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Cybernetic chamber"
+        },
+        "D'vouran amulet": {
+            "full_url": "http://starwars.wikia.com/wiki/D%27vouran_amulet",
+            "href": "/wiki/D%27vouran_amulet",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "D'vouran amulet"
+        },
+        "Dagger of Mortis/Legends": {
+            "full_url": "http://starwars.wikia.com/wiki/Dagger_of_Mortis/Legends",
+            "href": "/wiki/Dagger_of_Mortis/Legends",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Dagger of Mortis/Legends"
+        },
+        "Dancing Goddess": {
+            "full_url": "http://starwars.wikia.com/wiki/Dancing_Goddess",
+            "href": "/wiki/Dancing_Goddess",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Dancing Goddess"
+        },
+        "Dark side artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Dark_side_artifact",
+            "href": "/wiki/Dark_side_artifact",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Dark side artifact"
+        },
+        "Darkstaff": {
+            "full_url": "http://starwars.wikia.com/wiki/Darkstaff",
+            "href": "/wiki/Darkstaff",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Darkstaff"
+        },
+        "Darth Vader figurine": {
+            "full_url": "http://starwars.wikia.com/wiki/Darth_Vader_figurine",
+            "href": "/wiki/Darth_Vader_figurine",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Darth Vader figurine"
+        },
+        "Dianoga Heart": {
+            "full_url": "http://starwars.wikia.com/wiki/Dianoga_Heart",
+            "href": "/wiki/Dianoga_Heart",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Dianoga Heart"
+        },
+        "Diatian Clockwork": {
+            "full_url": "http://starwars.wikia.com/wiki/Diatian_Clockwork",
+            "href": "/wiki/Diatian_Clockwork",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Diatian Clockwork"
+        },
+        "Dor Gal-ram and Horak-mul's tablets": {
+            "full_url": "http://starwars.wikia.com/wiki/Dor_Gal-ram_and_Horak-mul%27s_tablets",
+            "href": "/wiki/Dor_Gal-ram_and_Horak-mul%27s_tablets",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Dor Gal-ram and Horak-mul's tablets"
+        },
+        "Dreypa's Oubliette": {
+            "full_url": "http://starwars.wikia.com/wiki/Dreypa%27s_Oubliette",
+            "href": "/wiki/Dreypa%27s_Oubliette",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Dreypa's Oubliette"
+        },
+        "Dromund Fels oubliette": {
+            "full_url": "http://starwars.wikia.com/wiki/Dromund_Fels_oubliette",
+            "href": "/wiki/Dromund_Fels_oubliette",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Dromund Fels oubliette"
+        },
+        "Embrace of Pain": {
+            "full_url": "http://starwars.wikia.com/wiki/Embrace_of_Pain",
+            "href": "/wiki/Embrace_of_Pain",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Embrace of Pain"
+        },
+        "Emperor's cane": {
+            "full_url": "http://starwars.wikia.com/wiki/Emperor%27s_cane",
+            "href": "/wiki/Emperor%27s_cane",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Emperor's cane"
+        },
+        "Empress Teta's Crown Jewels": {
+            "full_url": "http://starwars.wikia.com/wiki/Empress_Teta%27s_Crown_Jewels",
+            "href": "/wiki/Empress_Teta%27s_Crown_Jewels",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Empress Teta's Crown Jewels"
+        },
+        "Essence Stealer": {
+            "full_url": "http://starwars.wikia.com/wiki/Essence_Stealer",
+            "href": "/wiki/Essence_Stealer",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Essence Stealer"
+        },
+        "Exar Kun's lightsaber": {
+            "full_url": "http://starwars.wikia.com/wiki/Exar_Kun%27s_lightsaber",
+            "href": "/wiki/Exar_Kun%27s_lightsaber",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Exar Kun's lightsaber"
+        },
+        "Eye of Horak-mul": {
+            "full_url": "http://starwars.wikia.com/wiki/Eye_of_Horak-mul",
+            "href": "/wiki/Eye_of_Horak-mul",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Eye of Horak-mul"
+        },
+        "Eye of Koda": {
+            "full_url": "http://starwars.wikia.com/wiki/Eye_of_Koda",
+            "href": "/wiki/Eye_of_Koda",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Eye of Koda"
+        },
+        "Eye of the Albino Cyclops": {
+            "full_url": "http://starwars.wikia.com/wiki/Eye_of_the_Albino_Cyclops",
+            "href": "/wiki/Eye_of_the_Albino_Cyclops",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Eye of the Albino Cyclops"
+        },
+        "Fabled Key": {
+            "full_url": "http://starwars.wikia.com/wiki/Fabled_Key",
+            "href": "/wiki/Fabled_Key",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Fabled Key"
+        },
+        "Fell Star": {
+            "full_url": "http://starwars.wikia.com/wiki/Fell_Star",
+            "href": "/wiki/Fell_Star",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Fell Star"
+        },
+        "Foran Tutha star probe": {
+            "full_url": "http://starwars.wikia.com/wiki/Foran_Tutha_star_probe",
+            "href": "/wiki/Foran_Tutha_star_probe",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Foran Tutha star probe"
+        },
+        "Force Disperser": {
+            "full_url": "http://starwars.wikia.com/wiki/Force_Disperser",
+            "href": "/wiki/Force_Disperser",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Force Disperser"
+        },
+        "Force artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Force_artifact",
+            "href": "/wiki/Force_artifact",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Force artifact"
+        },
+        "Force detector": {
+            "full_url": "http://starwars.wikia.com/wiki/Force_detector",
+            "href": "/wiki/Force_detector",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Force detector"
+        },
+        "Freedon Nadd's short lightsaber": {
+            "full_url": "http://starwars.wikia.com/wiki/Freedon_Nadd%27s_short_lightsaber",
+            "href": "/wiki/Freedon_Nadd%27s_short_lightsaber",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Freedon Nadd's short lightsaber"
+        },
+        "Gandok": {
+            "full_url": "http://starwars.wikia.com/wiki/Gandok",
+            "href": "/wiki/Gandok",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Gandok"
+        },
+        "Gauntlet of Kressh the Younger": {
+            "full_url": "http://starwars.wikia.com/wiki/Gauntlet_of_Kressh_the_Younger",
+            "href": "/wiki/Gauntlet_of_Kressh_the_Younger",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Gauntlet of Kressh the Younger"
+        },
+        "Genesis pool": {
+            "full_url": "http://starwars.wikia.com/wiki/Genesis_pool",
+            "href": "/wiki/Genesis_pool",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Genesis pool"
+        },
+        "Globe of Peace": {
+            "full_url": "http://starwars.wikia.com/wiki/Globe_of_Peace",
+            "href": "/wiki/Globe_of_Peace",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Globe of Peace"
+        },
+        "Globe of Peace/Legends": {
+            "full_url": "http://starwars.wikia.com/wiki/Globe_of_Peace/Legends",
+            "href": "/wiki/Globe_of_Peace/Legends",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Globe of Peace/Legends"
+        },
+        "Great Hyperspace War Bas-Relief": {
+            "full_url": "http://starwars.wikia.com/wiki/Great_Hyperspace_War_Bas-Relief",
+            "href": "/wiki/Great_Hyperspace_War_Bas-Relief",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Great Hyperspace War Bas-Relief"
+        },
+        "Great Subcrustal Tubeway": {
+            "full_url": "http://starwars.wikia.com/wiki/Great_Subcrustal_Tubeway",
+            "href": "/wiki/Great_Subcrustal_Tubeway",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Great Subcrustal Tubeway"
+        },
+        "Gung Slabs": {
+            "full_url": "http://starwars.wikia.com/wiki/Gung_Slabs",
+            "href": "/wiki/Gung_Slabs",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Gung Slabs"
+        },
+        "Gusepp's Hand": {
+            "full_url": "http://starwars.wikia.com/wiki/Gusepp%27s_Hand",
+            "href": "/wiki/Gusepp%27s_Hand",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Gusepp's Hand"
+        },
+        "Hand artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Hand_artifact",
+            "href": "/wiki/Hand_artifact",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Hand artifact"
+        },
+        "Helm of Dathka Graush": {
+            "full_url": "http://starwars.wikia.com/wiki/Helm_of_Dathka_Graush",
+            "href": "/wiki/Helm_of_Dathka_Graush",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Helm of Dathka Graush"
+        },
+        "Helm of Ieldis": {
+            "full_url": "http://starwars.wikia.com/wiki/Helm_of_Ieldis",
+            "href": "/wiki/Helm_of_Ieldis",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Helm of Ieldis"
+        },
+        "Horak-mul's ceremonial robe": {
+            "full_url": "http://starwars.wikia.com/wiki/Horak-mul%27s_ceremonial_robe",
+            "href": "/wiki/Horak-mul%27s_ceremonial_robe",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Horak-mul's ceremonial robe"
+        },
+        "Ianane Ring": {
+            "full_url": "http://starwars.wikia.com/wiki/Ianane_Ring",
+            "href": "/wiki/Ianane_Ring",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Ianane Ring"
+        },
+        "Ice mirror": {
+            "full_url": "http://starwars.wikia.com/wiki/Ice_mirror",
+            "href": "/wiki/Ice_mirror",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Ice mirror"
+        },
+        "Incense burner": {
+            "full_url": "http://starwars.wikia.com/wiki/Incense_burner",
+            "href": "/wiki/Incense_burner",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Incense burner"
+        },
+        "Infant of Shaa": {
+            "full_url": "http://starwars.wikia.com/wiki/Infant_of_Shaa",
+            "href": "/wiki/Infant_of_Shaa",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Infant of Shaa"
+        },
+        "Jadru's crystal ball": {
+            "full_url": "http://starwars.wikia.com/wiki/Jadru%27s_crystal_ball",
+            "href": "/wiki/Jadru%27s_crystal_ball",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Jadru's crystal ball"
+        },
+        "Jelly block": {
+            "full_url": "http://starwars.wikia.com/wiki/Jelly_block",
+            "href": "/wiki/Jelly_block",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Jelly block"
+        },
+        "Jewel of Yavin": {
+            "full_url": "http://starwars.wikia.com/wiki/Jewel_of_Yavin",
+            "href": "/wiki/Jewel_of_Yavin",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Jewel of Yavin"
+        },
+        "Jorak Uln's Sith tablet": {
+            "full_url": "http://starwars.wikia.com/wiki/Jorak_Uln%27s_Sith_tablet",
+            "href": "/wiki/Jorak_Uln%27s_Sith_tablet",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Jorak Uln's Sith tablet"
+        },
+        "Kadlo Talisman": {
+            "full_url": "http://starwars.wikia.com/wiki/Kadlo_Talisman",
+            "href": "/wiki/Kadlo_Talisman",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Kadlo Talisman"
+        },
+        "Kallig's Countenance": {
+            "full_url": "http://starwars.wikia.com/wiki/Kallig%27s_Countenance",
+            "href": "/wiki/Kallig%27s_Countenance",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Kallig's Countenance"
+        },
+        "Kashi Mer talisman": {
+            "full_url": "http://starwars.wikia.com/wiki/Kashi_Mer_talisman",
+            "href": "/wiki/Kashi_Mer_talisman",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Kashi Mer talisman"
+        },
+        "Key of Exile": {
+            "full_url": "http://starwars.wikia.com/wiki/Key_of_Exile",
+            "href": "/wiki/Key_of_Exile",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Key of Exile"
+        },
+        "Kharrus's staff": {
+            "full_url": "http://starwars.wikia.com/wiki/Kharrus%27s_staff",
+            "href": "/wiki/Kharrus%27s_staff",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Kharrus's staff"
+        },
+        "Khoz'zhak": {
+            "full_url": "http://starwars.wikia.com/wiki/Khoz%27zhak",
+            "href": "/wiki/Khoz%27zhak",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Khoz'zhak"
+        },
+        "Korendum": {
+            "full_url": "http://starwars.wikia.com/wiki/Korendum",
+            "href": "/wiki/Korendum",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Korendum"
+        },
+        "Krayiss Obelisk": {
+            "full_url": "http://starwars.wikia.com/wiki/Krayiss_Obelisk",
+            "href": "/wiki/Krayiss_Obelisk",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Krayiss Obelisk"
+        },
+        "Light side artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Light_side_artifact",
+            "href": "/wiki/Light_side_artifact",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Light side artifact"
+        },
+        "Lignan": {
+            "full_url": "http://starwars.wikia.com/wiki/Lignan",
+            "href": "/wiki/Lignan",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Lignan"
+        },
+        "Living sphere": {
+            "full_url": "http://starwars.wikia.com/wiki/Living_sphere",
+            "href": "/wiki/Living_sphere",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Living sphere"
+        },
+        "Lorrd Artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Lorrd_Artifact",
+            "href": "/wiki/Lorrd_Artifact",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Lorrd Artifact"
+        },
+        "Ludo Kressh's armband": {
+            "full_url": "http://starwars.wikia.com/wiki/Ludo_Kressh%27s_armband",
+            "href": "/wiki/Ludo_Kressh%27s_armband",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Ludo Kressh's armband"
+        },
+        "Ludo Kressh's pedicure set": {
+            "full_url": "http://starwars.wikia.com/wiki/Ludo_Kressh%27s_pedicure_set",
+            "href": "/wiki/Ludo_Kressh%27s_pedicure_set",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Ludo Kressh's pedicure set"
+        },
+        "Luminous Bantha": {
+            "full_url": "http://starwars.wikia.com/wiki/Luminous_Bantha",
+            "href": "/wiki/Luminous_Bantha",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Luminous Bantha"
+        },
+        "Magic rock": {
+            "full_url": "http://starwars.wikia.com/wiki/Magic_rock",
+            "href": "/wiki/Magic_rock",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Magic rock"
+        },
+        "Magic wand": {
+            "full_url": "http://starwars.wikia.com/wiki/Magic_wand",
+            "href": "/wiki/Magic_wand",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Magic wand"
+        },
+        "Mandalore's Mask": {
+            "full_url": "http://starwars.wikia.com/wiki/Mandalore%27s_Mask",
+            "href": "/wiki/Mandalore%27s_Mask",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Mandalore's Mask"
+        },
+        "Mark of the Hero": {
+            "full_url": "http://starwars.wikia.com/wiki/Mark_of_the_Hero",
+            "href": "/wiki/Mark_of_the_Hero",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Mark of the Hero"
+        },
+        "Marka Ragnos' gauntlets": {
+            "full_url": "http://starwars.wikia.com/wiki/Marka_Ragnos%27_gauntlets",
+            "href": "/wiki/Marka_Ragnos%27_gauntlets",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Marka Ragnos' gauntlets"
+        },
+        "Mask of Darth Nihilus": {
+            "full_url": "http://starwars.wikia.com/wiki/Mask_of_Darth_Nihilus",
+            "href": "/wiki/Mask_of_Darth_Nihilus",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Mask of Darth Nihilus"
+        },
+        "Mendacian funeral urn": {
+            "full_url": "http://starwars.wikia.com/wiki/Mendacian_funeral_urn",
+            "href": "/wiki/Mendacian_funeral_urn",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Mendacian funeral urn"
+        },
+        "Mind prison": {
+            "full_url": "http://starwars.wikia.com/wiki/Mind_prison",
+            "href": "/wiki/Mind_prison",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Mind prison"
+        },
+        "Mindharp": {
+            "full_url": "http://starwars.wikia.com/wiki/Mindharp",
+            "href": "/wiki/Mindharp",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Mindharp"
+        },
+        "Minstrel": {
+            "full_url": "http://starwars.wikia.com/wiki/Minstrel",
+            "href": "/wiki/Minstrel",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Minstrel"
+        },
+        "Mirr": {
+            "full_url": "http://starwars.wikia.com/wiki/Mirr",
+            "href": "/wiki/Mirr",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Mirr"
+        },
+        "Morodin/Canon": {
+            "full_url": "http://starwars.wikia.com/wiki/Morodin/Canon",
+            "href": "/wiki/Morodin/Canon",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Morodin/Canon"
+        },
+        "Mystical stone": {
+            "full_url": "http://starwars.wikia.com/wiki/Mystical_stone",
+            "href": "/wiki/Mystical_stone",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Mystical stone"
+        },
+        "Nightsister Force crystal": {
+            "full_url": "http://starwars.wikia.com/wiki/Nightsister_Force_crystal",
+            "href": "/wiki/Nightsister_Force_crystal",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Nightsister Force crystal"
+        },
+        "Nojic Beanstalk": {
+            "full_url": "http://starwars.wikia.com/wiki/Nojic_Beanstalk",
+            "href": "/wiki/Nojic_Beanstalk",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Nojic Beanstalk"
+        },
+        "Nova Crystal": {
+            "full_url": "http://starwars.wikia.com/wiki/Nova_Crystal",
+            "href": "/wiki/Nova_Crystal",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Nova Crystal"
+        },
+        "Orb of Passage": {
+            "full_url": "http://starwars.wikia.com/wiki/Orb_of_Passage",
+            "href": "/wiki/Orb_of_Passage",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Orb of Passage"
+        },
+        "Organa's Ceremonial Necklace": {
+            "full_url": "http://starwars.wikia.com/wiki/Organa%27s_Ceremonial_Necklace",
+            "href": "/wiki/Organa%27s_Ceremonial_Necklace",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Organa's Ceremonial Necklace"
+        },
+        "Ou'tranoi": {
+            "full_url": "http://starwars.wikia.com/wiki/Ou%27tranoi",
+            "href": "/wiki/Ou%27tranoi",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Ou'tranoi"
+        },
+        "Oubliette (stasis casket)": {
+            "full_url": "http://starwars.wikia.com/wiki/Oubliette_(stasis_casket)",
+            "href": "/wiki/Oubliette_(stasis_casket)",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Oubliette (stasis casket)"
+        },
+        "Packet of information": {
+            "full_url": "http://starwars.wikia.com/wiki/Packet_of_information",
+            "href": "/wiki/Packet_of_information",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Packet of information"
+        },
+        "Padm\u00e9 Amidala's amulet": {
+            "full_url": "http://starwars.wikia.com/wiki/Padm%C3%A9_Amidala%27s_amulet",
+            "href": "/wiki/Padm%C3%A9_Amidala%27s_amulet",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Padm\u00e9 Amidala's amulet"
+        },
+        "Panteer crown": {
+            "full_url": "http://starwars.wikia.com/wiki/Panteer_crown",
+            "href": "/wiki/Panteer_crown",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Panteer crown"
+        },
+        "Pearl of Wisdom": {
+            "full_url": "http://starwars.wikia.com/wiki/Pearl_of_Wisdom",
+            "href": "/wiki/Pearl_of_Wisdom",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Pearl of Wisdom"
+        },
+        "Pendant of Bone": {
+            "full_url": "http://starwars.wikia.com/wiki/Pendant_of_Bone",
+            "href": "/wiki/Pendant_of_Bone",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Pendant of Bone"
+        },
+        "Penegelen Shards": {
+            "full_url": "http://starwars.wikia.com/wiki/Penegelen_Shards",
+            "href": "/wiki/Penegelen_Shards",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Penegelen Shards"
+        },
+        "Phobis Core": {
+            "full_url": "http://starwars.wikia.com/wiki/Phobis_Core",
+            "href": "/wiki/Phobis_Core",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Phobis Core"
+        },
+        "Phobis devices": {
+            "full_url": "http://starwars.wikia.com/wiki/Phobis_devices",
+            "href": "/wiki/Phobis_devices",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Phobis devices"
+        },
+        "Plaque of Victory": {
+            "full_url": "http://starwars.wikia.com/wiki/Plaque_of_Victory",
+            "href": "/wiki/Plaque_of_Victory",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Plaque of Victory"
+        },
+        "Power gem": {
+            "full_url": "http://starwars.wikia.com/wiki/Power_gem",
+            "href": "/wiki/Power_gem",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Power gem"
+        },
+        "Prophecy pool": {
+            "full_url": "http://starwars.wikia.com/wiki/Prophecy_pool",
+            "href": "/wiki/Prophecy_pool",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Prophecy pool"
+        },
+        "Quilan Pyradex": {
+            "full_url": "http://starwars.wikia.com/wiki/Quilan_Pyradex",
+            "href": "/wiki/Quilan_Pyradex",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Quilan Pyradex"
+        },
+        "Ravager (device)": {
+            "full_url": "http://starwars.wikia.com/wiki/Ravager_(device)",
+            "href": "/wiki/Ravager_(device)",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Ravager (device)"
+        },
+        "Red Engine": {
+            "full_url": "http://starwars.wikia.com/wiki/Red_Engine",
+            "href": "/wiki/Red_Engine",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Red Engine"
+        },
+        "Relics": {
+            "full_url": "http://starwars.wikia.com/wiki/Relics",
+            "href": "/wiki/Relics",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Relics"
+        },
+        "Revan's mask": {
+            "full_url": "http://starwars.wikia.com/wiki/Revan%27s_mask",
+            "href": "/wiki/Revan%27s_mask",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Revan's mask"
+        },
+        "Roonstone": {
+            "full_url": "http://starwars.wikia.com/wiki/Roonstone",
+            "href": "/wiki/Roonstone",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Roonstone"
+        },
+        "Ryloth Ark": {
+            "full_url": "http://starwars.wikia.com/wiki/Ryloth_Ark",
+            "href": "/wiki/Ryloth_Ark",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Ryloth Ark"
+        },
+        "Sand Crown of Ruul": {
+            "full_url": "http://starwars.wikia.com/wiki/Sand_Crown_of_Ruul",
+            "href": "/wiki/Sand_Crown_of_Ruul",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Sand Crown of Ruul"
+        },
+        "Sand People Carving": {
+            "full_url": "http://starwars.wikia.com/wiki/Sand_People_Carving",
+            "href": "/wiki/Sand_People_Carving",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Sand People Carving"
+        },
+        "Savage Opress's pike": {
+            "full_url": "http://starwars.wikia.com/wiki/Savage_Opress%27s_pike",
+            "href": "/wiki/Savage_Opress%27s_pike",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Savage Opress's pike"
+        },
+        "Scepter of Ragnos": {
+            "full_url": "http://starwars.wikia.com/wiki/Scepter_of_Ragnos",
+            "href": "/wiki/Scepter_of_Ragnos",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Scepter of Ragnos"
+        },
+        "Sea skimmer": {
+            "full_url": "http://starwars.wikia.com/wiki/Sea_skimmer",
+            "href": "/wiki/Sea_skimmer",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Sea skimmer"
+        },
+        "Season scepter": {
+            "full_url": "http://starwars.wikia.com/wiki/Season_scepter",
+            "href": "/wiki/Season_scepter",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Season scepter"
+        },
+        "Seeds of Rage": {
+            "full_url": "http://starwars.wikia.com/wiki/Seeds_of_Rage",
+            "href": "/wiki/Seeds_of_Rage",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Seeds of Rage"
+        },
+        "Shadow Crown": {
+            "full_url": "http://starwars.wikia.com/wiki/Shadow_Crown",
+            "href": "/wiki/Shadow_Crown",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Shadow Crown"
+        },
+        "Shadow Traproom": {
+            "full_url": "http://starwars.wikia.com/wiki/Shadow_Traproom",
+            "href": "/wiki/Shadow_Traproom",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Shadow Traproom"
+        },
+        "Shadowstone": {
+            "full_url": "http://starwars.wikia.com/wiki/Shadowstone",
+            "href": "/wiki/Shadowstone",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Shadowstone"
+        },
+        "Shard (Oblee)": {
+            "full_url": "http://starwars.wikia.com/wiki/Shard_(Oblee)",
+            "href": "/wiki/Shard_(Oblee)",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Shard (Oblee)"
+        },
+        "Shard of Retaliation": {
+            "full_url": "http://starwars.wikia.com/wiki/Shard_of_Retaliation",
+            "href": "/wiki/Shard_of_Retaliation",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Shard of Retaliation"
+        },
+        "Sharka'k Noor": {
+            "full_url": "http://starwars.wikia.com/wiki/Sharka%27k_Noor",
+            "href": "/wiki/Sharka%27k_Noor",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Sharka'k Noor"
+        },
+        "Shipwright's Tools": {
+            "full_url": "http://starwars.wikia.com/wiki/Shipwright%27s_Tools",
+            "href": "/wiki/Shipwright%27s_Tools",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Shipwright's Tools"
+        },
+        "Sith Chalice": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_Chalice",
+            "href": "/wiki/Sith_Chalice",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith Chalice"
+        },
+        "Sith Holocron repository": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_Holocron_repository",
+            "href": "/wiki/Sith_Holocron_repository",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith Holocron repository"
+        },
+        "Sith Jedi Statue": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_Jedi_Statue",
+            "href": "/wiki/Sith_Jedi_Statue",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith Jedi Statue"
+        },
+        "Sith apparel": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_apparel",
+            "href": "/wiki/Sith_apparel",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith apparel"
+        },
+        "Sith artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_artifact",
+            "href": "/wiki/Sith_artifact",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith artifact"
+        },
+        "Sith manuscript": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_manuscript",
+            "href": "/wiki/Sith_manuscript",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith manuscript"
+        },
+        "Sith power source": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_power_source",
+            "href": "/wiki/Sith_power_source",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith power source"
+        },
+        "Sith regenerator": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_regenerator",
+            "href": "/wiki/Sith_regenerator",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith regenerator"
+        },
+        "Sith sarcophagus": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_sarcophagus",
+            "href": "/wiki/Sith_sarcophagus",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith sarcophagus"
+        },
+        "Sith scroll": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_scroll",
+            "href": "/wiki/Sith_scroll",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith scroll"
+        },
+        "Sith spellbook": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_spellbook",
+            "href": "/wiki/Sith_spellbook",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith spellbook"
+        },
+        "Sith tome (Dromund Kaas Academy)": {
+            "full_url": "http://starwars.wikia.com/wiki/Sith_tome_(Dromund_Kaas_Academy)",
+            "href": "/wiki/Sith_tome_(Dromund_Kaas_Academy)",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Sith tome (Dromund Kaas Academy)"
+        },
+        "Soul snare": {
+            "full_url": "http://starwars.wikia.com/wiki/Soul_snare",
+            "href": "/wiki/Soul_snare",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Soul snare"
+        },
+        "Soul stealer": {
+            "full_url": "http://starwars.wikia.com/wiki/Soul_stealer",
+            "href": "/wiki/Soul_stealer",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Soul stealer"
+        },
+        "Soulsaber": {
+            "full_url": "http://starwars.wikia.com/wiki/Soulsaber",
+            "href": "/wiki/Soulsaber",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Soulsaber"
+        },
+        "Space\u2013time-warping gate": {
+            "full_url": "http://starwars.wikia.com/wiki/Space%E2%80%93time-warping_gate",
+            "href": "/wiki/Space%E2%80%93time-warping_gate",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Space\u2013time-warping gate"
+        },
+        "Speaker's staff": {
+            "full_url": "http://starwars.wikia.com/wiki/Speaker%27s_staff",
+            "href": "/wiki/Speaker%27s_staff",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Speaker's staff"
+        },
+        "Spiral mist-horn": {
+            "full_url": "http://starwars.wikia.com/wiki/Spiral_mist-horn",
+            "href": "/wiki/Spiral_mist-horn",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Spiral mist-horn"
+        },
+        "Spirit Heart": {
+            "full_url": "http://starwars.wikia.com/wiki/Spirit_Heart",
+            "href": "/wiki/Spirit_Heart",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Spirit Heart"
+        },
+        "Spirit urn": {
+            "full_url": "http://starwars.wikia.com/wiki/Spirit_urn",
+            "href": "/wiki/Spirit_urn",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Spirit urn"
+        },
+        "Staff of Command": {
+            "full_url": "http://starwars.wikia.com/wiki/Staff_of_Command",
+            "href": "/wiki/Staff_of_Command",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Staff of Command"
+        },
+        "Staff of Logray": {
+            "full_url": "http://starwars.wikia.com/wiki/Staff_of_Logray",
+            "href": "/wiki/Staff_of_Logray",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Staff of Logray"
+        },
+        "Staff of Morag": {
+            "full_url": "http://starwars.wikia.com/wiki/Staff_of_Morag",
+            "href": "/wiki/Staff_of_Morag",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Staff of Morag"
+        },
+        "Star Map": {
+            "full_url": "http://starwars.wikia.com/wiki/Star_Map",
+            "href": "/wiki/Star_Map",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Star Map"
+        },
+        "Star of Kala'unn": {
+            "full_url": "http://starwars.wikia.com/wiki/Star_of_Kala%27unn",
+            "href": "/wiki/Star_of_Kala%27unn",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Star of Kala'unn"
+        },
+        "Statue of Emperor Palpatine": {
+            "full_url": "http://starwars.wikia.com/wiki/Statue_of_Emperor_Palpatine",
+            "href": "/wiki/Statue_of_Emperor_Palpatine",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Statue of Emperor Palpatine"
+        },
+        "Statue of Qui-Gon Jinn": {
+            "full_url": "http://starwars.wikia.com/wiki/Statue_of_Qui-Gon_Jinn",
+            "href": "/wiki/Statue_of_Qui-Gon_Jinn",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Statue of Qui-Gon Jinn"
+        },
+        "Stone mirror": {
+            "full_url": "http://starwars.wikia.com/wiki/Stone_mirror",
+            "href": "/wiki/Stone_mirror",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Stone mirror"
+        },
+        "Sunstar": {
+            "full_url": "http://starwars.wikia.com/wiki/Sunstar",
+            "href": "/wiki/Sunstar",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Sunstar"
+        },
+        "Syned I obelisk": {
+            "full_url": "http://starwars.wikia.com/wiki/Syned_I_obelisk",
+            "href": "/wiki/Syned_I_obelisk",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Syned I obelisk"
+        },
+        "Tail stinger wrap": {
+            "full_url": "http://starwars.wikia.com/wiki/Tail_stinger_wrap",
+            "href": "/wiki/Tail_stinger_wrap",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Tail stinger wrap"
+        },
+        "Talisman (artifact)": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_(artifact)",
+            "href": "/wiki/Talisman_(artifact)",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Talisman (artifact)"
+        },
+        "Talisman of Age": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_Age",
+            "href": "/wiki/Talisman_of_Age",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of Age"
+        },
+        "Talisman of Counterspell": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_Counterspell",
+            "href": "/wiki/Talisman_of_Counterspell",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of Counterspell"
+        },
+        "Talisman of Finding": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_Finding",
+            "href": "/wiki/Talisman_of_Finding",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of Finding"
+        },
+        "Talisman of Resurrection": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_Resurrection",
+            "href": "/wiki/Talisman_of_Resurrection",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of Resurrection"
+        },
+        "Talisman of Transformation": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_Transformation",
+            "href": "/wiki/Talisman_of_Transformation",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of Transformation"
+        },
+        "Talisman of the Bolma": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_the_Bolma",
+            "href": "/wiki/Talisman_of_the_Bolma",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of the Bolma"
+        },
+        "Talisman of the Brackaset": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_the_Brackaset",
+            "href": "/wiki/Talisman_of_the_Brackaset",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of the Brackaset"
+        },
+        "Talisman of the Burra Fish": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_the_Burra_Fish",
+            "href": "/wiki/Talisman_of_the_Burra_Fish",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of the Burra Fish"
+        },
+        "Talisman of the Eollu": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_the_Eollu",
+            "href": "/wiki/Talisman_of_the_Eollu",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of the Eollu"
+        },
+        "Talisman of the Raven": {
+            "full_url": "http://starwars.wikia.com/wiki/Talisman_of_the_Raven",
+            "href": "/wiki/Talisman_of_the_Raven",
+            "parents": [
+                "Nightsister_talismans"
+            ],
+            "title": "Talisman of the Raven"
+        },
+        "Tarasin amulet": {
+            "full_url": "http://starwars.wikia.com/wiki/Tarasin_amulet",
+            "href": "/wiki/Tarasin_amulet",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Tarasin amulet"
+        },
+        "Taurannik Codex": {
+            "full_url": "http://starwars.wikia.com/wiki/Taurannik_Codex",
+            "href": "/wiki/Taurannik_Codex",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "Taurannik Codex"
+        },
+        "Temple of Sacrifice artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Temple_of_Sacrifice_artifact",
+            "href": "/wiki/Temple_of_Sacrifice_artifact",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Temple of Sacrifice artifact"
+        },
+        "The Eye of the Beyonder": {
+            "full_url": "http://starwars.wikia.com/wiki/The_Eye_of_the_Beyonder",
+            "href": "/wiki/The_Eye_of_the_Beyonder",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "The Eye of the Beyonder"
+        },
+        "The Imprisoned One's mind prison": {
+            "full_url": "http://starwars.wikia.com/wiki/The_Imprisoned_One%27s_mind_prison",
+            "href": "/wiki/The_Imprisoned_One%27s_mind_prison",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "The Imprisoned One's mind prison"
+        },
+        "The Package (object)": {
+            "full_url": "http://starwars.wikia.com/wiki/The_Package_(object)",
+            "href": "/wiki/The_Package_(object)",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "The Package (object)"
+        },
+        "Three Great Works": {
+            "full_url": "http://starwars.wikia.com/wiki/Three_Great_Works",
+            "href": "/wiki/Three_Great_Works",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Three Great Works"
+        },
+        "Totem Master's ring": {
+            "full_url": "http://starwars.wikia.com/wiki/Totem_Master%27s_ring",
+            "href": "/wiki/Totem_Master%27s_ring",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Totem Master's ring"
+        },
+        "Totem of Familiars": {
+            "full_url": "http://starwars.wikia.com/wiki/Totem_of_Familiars",
+            "href": "/wiki/Totem_of_Familiars",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Totem of Familiars"
+        },
+        "Totem of the Elementals": {
+            "full_url": "http://starwars.wikia.com/wiki/Totem_of_the_Elementals",
+            "href": "/wiki/Totem_of_the_Elementals",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Totem of the Elementals"
+        },
+        "Toydarian clan bell": {
+            "full_url": "http://starwars.wikia.com/wiki/Toydarian_clan_bell",
+            "href": "/wiki/Toydarian_clan_bell",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Toydarian clan bell"
+        },
+        "Trandoshan relic": {
+            "full_url": "http://starwars.wikia.com/wiki/Trandoshan_relic",
+            "href": "/wiki/Trandoshan_relic",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Trandoshan relic"
+        },
+        "Trinity Stones": {
+            "full_url": "http://starwars.wikia.com/wiki/Trinity_Stones",
+            "href": "/wiki/Trinity_Stones",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Trinity Stones"
+        },
+        "Tulak Hord's mask": {
+            "full_url": "http://starwars.wikia.com/wiki/Tulak_Hord%27s_mask",
+            "href": "/wiki/Tulak_Hord%27s_mask",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Tulak Hord's mask"
+        },
+        "Tulpaa mind prison": {
+            "full_url": "http://starwars.wikia.com/wiki/Tulpaa_mind_prison",
+            "href": "/wiki/Tulpaa_mind_prison",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Tulpaa mind prison"
+        },
+        "Tyia amulet": {
+            "full_url": "http://starwars.wikia.com/wiki/Tyia_amulet",
+            "href": "/wiki/Tyia_amulet",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Tyia amulet"
+        },
+        "Um'Tal": {
+            "full_url": "http://starwars.wikia.com/wiki/Um%27Tal",
+            "href": "/wiki/Um%27Tal",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Um'Tal"
+        },
+        "Unidentified Kwa artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Unidentified_Kwa_artifact",
+            "href": "/wiki/Unidentified_Kwa_artifact",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Unidentified Kwa artifact"
+        },
+        "Unidentified Sith artifact": {
+            "full_url": "http://starwars.wikia.com/wiki/Unidentified_Sith_artifact",
+            "href": "/wiki/Unidentified_Sith_artifact",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Unidentified Sith artifact"
+        },
+        "Unidentified Sith statues": {
+            "full_url": "http://starwars.wikia.com/wiki/Unidentified_Sith_statues",
+            "href": "/wiki/Unidentified_Sith_statues",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Unidentified Sith statues"
+        },
+        "Unidentified tome": {
+            "full_url": "http://starwars.wikia.com/wiki/Unidentified_tome",
+            "href": "/wiki/Unidentified_tome",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Unidentified tome"
+        },
+        "Veelgeg": {
+            "full_url": "http://starwars.wikia.com/wiki/Veelgeg",
+            "href": "/wiki/Veelgeg",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Veelgeg"
+        },
+        "Void Stone": {
+            "full_url": "http://starwars.wikia.com/wiki/Void_Stone",
+            "href": "/wiki/Void_Stone",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Void Stone"
+        },
+        "War Blade": {
+            "full_url": "http://starwars.wikia.com/wiki/War_Blade",
+            "href": "/wiki/War_Blade",
+            "parents": [
+                "Dark_side_artifacts"
+            ],
+            "title": "War Blade"
+        },
+        "Will-o'-the-wisp": {
+            "full_url": "http://starwars.wikia.com/wiki/Will-o%27-the-wisp",
+            "href": "/wiki/Will-o%27-the-wisp",
+            "parents": [
+                "In-universe_articles"
+            ],
+            "title": "Will-o'-the-wisp"
+        },
+        "Wind drum": {
+            "full_url": "http://starwars.wikia.com/wiki/Wind_drum",
+            "href": "/wiki/Wind_drum",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Wind drum"
+        },
+        "Wraith Box": {
+            "full_url": "http://starwars.wikia.com/wiki/Wraith_Box",
+            "href": "/wiki/Wraith_Box",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Wraith Box"
+        },
+        "Yavin Vassilika": {
+            "full_url": "http://starwars.wikia.com/wiki/Yavin_Vassilika",
+            "href": "/wiki/Yavin_Vassilika",
+            "parents": [
+                "Artifacts"
+            ],
+            "title": "Yavin Vassilika"
+        },
+        "Yoke of Seeming": {
+            "full_url": "http://starwars.wikia.com/wiki/Yoke_of_Seeming",
+            "href": "/wiki/Yoke_of_Seeming",
+            "parents": [
+                "Sith_artifacts"
+            ],
+            "title": "Yoke of Seeming"
+        },
+        "Zarrak's medallion": {
+            "full_url": "http://starwars.wikia.com/wiki/Zarrak%27s_medallion",
+            "href": "/wiki/Zarrak%27s_medallion",
+            "parents": [
+                "Force-sensitive_objects"
+            ],
+            "title": "Zarrak's medallion"
+        }
+    },
+    "name": "starwars_In-universe_articles"
+}
