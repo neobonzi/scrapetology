@@ -115,18 +115,24 @@ def main():
         LOGGER.disabled = True
 
     # IMPORT ONTOLOGY
-    pickle_filename = args.pickle
-    LOGGER.info('Importing Ontology: %s', pickle_filename)
-    onto = import_ontology(pickle_filename)
+    onto_pickle_filename = args.pickle
+    LOGGER.info('Importing Ontology: %s', onto_pickle_filename)
+    onto = import_ontology(onto_pickle_filename)
 
     # BUILD RDF
     LOGGER.info('Building RDF...')
-    rdf = make_rdf(onto)
+    graph = make_rdf(onto)
 
     # SAVE RDF
-    output_filename = pickle_filename.rstrip('.pickle') + '.xml'
+    output_filename = onto_pickle_filename.rstrip('.pickle') + '.xml'
     LOGGER.info('Saving RDF: %s', output_filename)
-    rdf.serialize(output_filename, format='pretty-xml', encoding='utf-8')
+    graph.serialize(output_filename, format='pretty-xml', encoding='utf-8')
+
+    # SAVE GRAPH
+    graph_pickle_filename = 'graph_' + onto_pickle_filename
+    LOGGER.info('Pickling Graph: %s', graph_pickle_filename)
+    with open(graph_pickle_filename, 'wb') as file:
+        pickle.dump(graph, file)
     return 0
 
 if __name__ == '__main__':
