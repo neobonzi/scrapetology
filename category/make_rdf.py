@@ -10,14 +10,25 @@ import pprint
 import sys
 import re
 
+import logging
+LOGGER = logging.getLogger(__name__)
+handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s:%(filename)s:%(lineno)3s:%(levelname)5s:%(funcName)s:%(message)s')
+meh = '[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s'
+handler.setFormatter(formatter)
+LOGGER.addHandler(handler)
+
 SWDB = Namespace("http://starwars.wikia.com/star_wars_ontology.owl#")
 
-def import_pickle_file():
-    sw_dump = None
-    pickle_file = 'starwars_In-universe_articles.pickle'
-    with open(pickle_file, 'rb') as pkl_file:
-        sw_dump = pickle.load(pkl_file)
-    return sw_dump
+#PICKLE_FILE = 'starwars_In-universe_articles.pickle'
+#PICKLE_FILE = 'starwars_Category:In-universe_articles.pickle'
+def import_ontology(pickle_filename):
+    LOGGER.debug('%s', pickle_filename)
+    ontology = None
+    with open(pickle_filename, 'rb') as file:
+        ontology = pickle.load(file)
+    LOGGER.debug('DONE')
+    return ontology
 
 def graph_add(graph, subject, object, predicate):
     try:
@@ -43,6 +54,7 @@ def add_instance(graph, inst_dict, key, class_of):
     graph_add(graph, URIRef(SWDB[title]), OWL.href, Literal(href))
 
 def add_class(graph, sw_dict, key, sw_instances):
+    LOGGER.debug('%s', key)
     title = strip_invalid(sw_dict[key].title)
     href = sw_dict[key].href
     parents = sw_dict[key].parents
@@ -70,46 +82,52 @@ def sparql_query(graph):
     for row in qres:
         print(row)
 
-def build_graph(args):
+def make_rdf(onto):
+    # Instantiate the graph
     graph = Graph()
-    sw_ontology = import_pickle_file()
-    sw_categories = sw_ontology.categories
-    sw_instances = sw_ontology.instances
 
-    # add the ontology
+    # Add the ontology
+    LOGGER.debug('ADDING:Ontology...')
     graph_add(graph, URIRef('http://example.org/star_wars_ontology.owl'), RDF.type, OWL.Ontology)
-
-    # DEBUG - take a small slice of the dicitonary for testing
-    # n_items = islice(sw_categories.keys(), 0, 10)
-    # for key in n_items:
-    #     add_class(graph, sw_categories, key, sw_instances)
-
-    # iterate through dictionary and build graph
-    for key in sw_categories.keys():
-        add_class(graph, sw_categories, key, sw_instances)
+    categories = onto.categories
+    instances = onto.instances
+    for key in categories:
+        add_class(graph, categories, key, instances)
 
     # Bind the OWL and SWDB name spaces
+    LOGGER.debug('BINDING:OWL and SWDB name spaces...')
     graph.bind("owl", OWL)
     graph.bind("swdb", SWDB)
-
-    # write the data to disk
-    graph_filename = None
-    if args:
-        graph_filename = args.filename[0]
-    else:
-        graph_filename = 'star_wars_ontology.xml'
-
-    graph.serialize(graph_filename, format='pretty-xml', encoding='utf-8')
-
-    # DEBUG - print the data for testing
-    # with open(graph_filename) as file:
-    #     for line in file:
-    #         print(line, end='')
+    return graph
 
 def main():
-    parser = args_build_graph()
+    LOGGER.setLevel(logging.INFO)
+    # ARGS
+    parser = args_make_rdf()
     args = parser.parse_args()
-    build_graph(args)
+
+    # SET LOGGING LEVEL
+    if args.debug:
+        LOGGER.setLevel(logging.DEBUG)
+    if args.verbose:
+        LOGGER.setLevel(logging.DEBUG)
+    if args.quiet:
+        LOGGER.disabled = True
+
+    # IMPORT ONTOLOGY
+    pickle_filename = args.pickle
+    LOGGER.info('Importing Ontology: %s', pickle_filename)
+    onto = import_ontology(pickle_filename)
+
+    # BUILD RDF
+    LOGGER.info('Building RDF...')
+    rdf = make_rdf(onto)
+
+    # SAVE RDF
+    output_filename = pickle_filename.rstrip('.pickle') + '.xml'
+    LOGGER.info('Saving RDF: %s', output_filename)
+    rdf.serialize(output_filename, format='pretty-xml', encoding='utf-8')
+    return 0
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

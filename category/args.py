@@ -5,7 +5,7 @@ import sys
 sys.path.append(os.getcwd())
 
 
-class SmartFormatter(argparse.HelpFormatter):
+class SmartFormatter(argparse.ArgumentDefaultsHelpFormatter):
 
     def _split_lines(self, text, width):
         # this is the RawTextHelpFormatter._split_lines
@@ -41,5 +41,31 @@ def args_build_graph():
                    metavar='<filename>',
                    nargs=1,
                    help='Filename for graph output')
+
+  return arg_parser
+
+def args_make_rdf():
+  description = 'Uses data scraped from the Star Wars wikia website to generate a rdf/xml graph'
+  arg_parser = get_arg_parser(description)
+  req = arg_parser.add_argument_group('required arguments')
+
+  req.add_argument('-d', '--debug',
+                   action='store_true',
+                   help='enable debug output')
+
+
+  req.add_argument('-v', '--verbose',
+                   action='store_true',
+                   help='enable verbose output')
+
+  req.add_argument('-q', '--quiet',
+                   action='store_true',
+                   help='forces quiet output (overrides anything else)')
+
+  req.add_argument('-p', '--pickle',
+                   required=True,
+                   action='store',
+                   metavar='<filename>',
+                   help='input ontology pickle filename')
 
   return arg_parser
