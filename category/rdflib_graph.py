@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from rdflib import Graph, URIRef, BNode, Namespace, Literal
 from rdflib.namespace import RDF, FOAF, RDFS, OWL
 from build_ontology import *
@@ -18,7 +20,10 @@ def import_pickle_file():
     return sw_dump
 
 def graph_add(graph, subject, object, predicate):
-    graph.add((subject, object, predicate))
+    try:
+        graph.add((subject, object, predicate))
+    except:
+        pass
 
 def strip_invalid(text):
     ir = re.sub(r'\s', '_', text)
@@ -65,7 +70,7 @@ def sparql_query(graph):
     for row in qres:
         print(row)
 
-def build_graph():
+def build_graph(args):
     graph = Graph()
     sw_ontology = import_pickle_file()
     sw_categories = sw_ontology.categories
@@ -88,7 +93,12 @@ def build_graph():
     graph.bind("swdb", SWDB)
 
     # write the data to disk
-    graph_filename = 'star_wars_ontology.xml'
+    graph_filename = None
+    if args:
+        graph_filename = args.filename[0]
+    else:
+        graph_filename = 'star_wars_ontology.xml'
+
     graph.serialize(graph_filename, format='pretty-xml', encoding='utf-8')
 
     # DEBUG - print the data for testing
@@ -97,10 +107,9 @@ def build_graph():
     #         print(line, end='')
 
 def main():
-    parser = get_arg_parser('rdflib_graph_generator')
+    parser = args_build_graph()
     args = parser.parse_args()
-    build_graph()
-    
+    build_graph(args)
+
 if __name__ == '__main__':
     main()
-    build_graph()
