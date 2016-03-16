@@ -1,0 +1,641 @@
+{
+    "base": "http://starwars.wikia.com",
+    "base_category": "Category:Products_by_company",
+    "base_category_url": "/wiki/Category:Products_by_company",
+    "categories": {
+        "Category:AccuTronics_products": {
+            "children": [
+                "Category:Model_E_baby-sitting_droids"
+            ],
+            "full_url": "http://starwars.wikia.com/wiki/Category:AccuTronics_products",
+            "href": "/wiki/Category:AccuTronics_products",
+            "instances": [
+                "CL-3_Droid_Command_Link",
+                "B1-series_worker_droid",
+                "Wideview_Binocular_Dome_Head",
+                "Modular_Medium_Planar_Pincher",
+                "TDL-3.5",
+                "AccuTronics",
+                "MK_8001_Attendant_Droid",
+                "TDL_nanny_droid",
+                "TDL-501_unipod_waitress_droid"
+            ],
+            "parents": [
+                "Category:Products_by_company"
+            ],
+            "title": "Category:AccuTronics_products"
+        },
+        "Category:Adventure_Hiker_and_Hunter_products": {
+            "children": [],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Adventure_Hiker_and_Hunter_products",
+            "href": "/wiki/Category:Adventure_Hiker_and_Hunter_products",
+            "instances": [
+                "Model_6_modular_backpack",
+                "Ration_pack/Legends",
+                "DuraShelter",
+                "Adventure_Hiker_and_Hunter"
+            ],
+            "parents": [
+                "Category:Products_by_company"
+            ],
+            "title": "Category:Adventure_Hiker_and_Hunter_products"
+        },
+        "Category:Aeramaxis_Technologies_products": {
+            "children": [],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Aeramaxis_Technologies_products",
+            "href": "/wiki/Category:Aeramaxis_Technologies_products",
+            "instances": [
+                "Evasive-226-R_field_disruptor",
+                "Evasive-13_individual_field_disruptor",
+                "Aeramaxis_Technologies"
+            ],
+            "parents": [
+                "Category:Products_by_company"
+            ],
+            "title": "Category:Aeramaxis_Technologies_products"
+        },
+        "Category:Affodies_Crafthouse_of_Pure_Neimoidia_products": {
+            "children": [],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Affodies_Crafthouse_of_Pure_Neimoidia_products",
+            "href": "/wiki/Category:Affodies_Crafthouse_of_Pure_Neimoidia_products",
+            "instances": [
+                "Mechno-chair/Legends",
+                "Xeno",
+                "Affodies_Crafthouse_of_Pure_Neimoidia"
+            ],
+            "parents": [
+                "Category:Products_by_company"
+            ],
+            "title": "Category:Affodies_Crafthouse_of_Pure_Neimoidia_products"
+        },
+        "Category:Model_E_baby-sitting_droids": {
+            "children": [],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Model_E_baby-sitting_droids",
+            "href": "/wiki/Category:Model_E_baby-sitting_droids",
+            "instances": [
+                "Q-E",
+                "2-E",
+                "U-E",
+                "Model_E_baby-sitting_droid"
+            ],
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "Category:Model_E_baby-sitting_droids"
+        },
+        "Category:Products_by_company": {
+            "children": [
+                "Category:Xerrol_Corporation_products",
+                "Category:Republic_Sienar_Systems_products",
+                "Category:Bin_Gassi_Racing_Engines_products",
+                "Category:V%27Jar_Technologies_products",
+                "Category:BlasTech_Industries_products",
+                "Category:Korrealis_Systems_products",
+                "Category:Sienar_Intelligence_Systems_products",
+                "Category:Czerka_Arms_products",
+                "Category:Cybot_Galactica_products",
+                "Category:Hoersch-Kessel_Drive,_Inc._products",
+                "Category:Carbanti_United_Electronics_products",
+                "Category:Loronar_Corporation_products",
+                "Category:Silviut_Corporation_products",
+                "Category:BullbaBong_products",
+                "Category:Fabreth_Medical_Biochemicals_products",
+                "Category:Republic_Engineering_Corporation_products",
+                "Category:Retail_Clan_products",
+                "Category:Phlut_Design_Systems_products",
+                "Category:Brathflen_Corporation_products",
+                "Category:N%27Gant-Zarvel_products",
+                "Category:Sienar_Fleet_Systems_products",
+                "Category:Gordarl_Weaponsmiths_products",
+                "Category:Systech_Corporation_products",
+                "Category:Nubia_Star_Drives,_Incorporated_products",
+                "Category:Baktoid_Armor_Workshop_products",
+                "Category:TelBrinTel_Corporation_products",
+                "Category:Kiris_shipyards_products",
+                "Category:BioTech_Industries_products",
+                "Category:Praxen_Emergency_Medical_Supplies,_Limited_products",
+                "Category:Imperial_Department_of_Military_Research_products",
+                "Category:Galactic_Arms_products",
+                "Category:Republic_Fleet_Systems_products",
+                "Category:Wynz-Tek_products",
+                "Category:Z-Gomot_Ternbuell_Guppat_Corporation_products",
+                "Category:Fabritech_products",
+                "Category:Pacnorval_Defense_Systems,_Limited_products",
+                "Category:DuroTech_products",
+                "Category:Speizoc_Arms_products",
+                "Category:Polis_Massa_Pria_Assemblage_products",
+                "Category:Ziko_products",
+                "Category:Orlean_products",
+                "Category:MicroThrust_Processors_products",
+                "Category:Rendili/Vanjervalis_Drive_Yards_products",
+                "Category:Joraan_Drive_Systems_products",
+                "Category:Reubens_Robotic_Systems_products",
+                "Category:Arden_Industries_products",
+                "Category:Interstellar_Droid_Monitoring,_Incorporated_products",
+                "Category:Raflkind_Industrials_products",
+                "Category:VidGraph_products",
+                "Category:Borstel_Galactic_Defense_products",
+                "Category:Razalon_products",
+                "Category:Telgorn_Corporation_products",
+                "Category:Gurian_products",
+                "Category:Tereene_products",
+                "Category:Kaloth_products",
+                "Category:Mandal_Hypernautics_products",
+                "Category:Prax_Arms_products",
+                "Category:Irateq_products",
+                "Category:Utilitech_products",
+                "Category:Loratus_Manufacturing_products",
+                "Category:Corellidyne_Visuals_products",
+                "Category:Wandrau_Arms_Corporation_products",
+                "Category:Haileycraft_products",
+                "Category:Longspur_and_Alloi_products",
+                "Category:Tendrando_Arms_products",
+                "Category:Feethan_Ottraw_Scalable_Assemblies_products",
+                "Category:Ekkar_Armaments_products",
+                "Category:Theed_Palace_Space_Vessel_Engineering_Corps_products",
+                "Category:Vershyi_Corporation_products",
+                "Category:Sirplex_products",
+                "Category:Techno_Union_products",
+                "Category:MandalMotors_products",
+                "Category:Automata_Galactica_products",
+                "Category:Celestial_Industries_products",
+                "Category:Mendarn_Arms_products",
+                "Category:Cygnus_Spaceworks_products",
+                "Category:TransGalMeg_Industries,_Incorporated_products",
+                "Category:SonoMax_products",
+                "Category:Nilar_Med/Tech_Corporation_products",
+                "Category:Sondat_products",
+                "Category:Lorrad_Flightworks_products",
+                "Category:Colicoid_Creation_Nest_products",
+                "Category:Atlas_Corp_products",
+                "Category:Athakam_Medtech_products",
+                "Category:Corondexx_products",
+                "Category:Haor_Chall_Engineering_products",
+                "Category:Illicit_Electronics_products",
+                "Category:Ubrikkian_Industries_products",
+                "Category:Korlier_Combine_products",
+                "Category:Patel_Ironwerks_products",
+                "Category:Miradyne_Limited_products",
+                "Category:LesTech_products",
+                "Category:Mennotor_products",
+                "Category:Leonore_Luxury_Liners_Incorporated_products",
+                "Category:Bespin_Motors_products",
+                "Category:Aratech_Repulsor_Company_products",
+                "Category:Irdani_Performance_Group_products",
+                "Category:Wrokix_Works_products",
+                "Category:Corellia_StarDrive_products",
+                "Category:Antilles_BioGen_products",
+                "Category:EoBaam_Shipping_Lines_products",
+                "Category:Gavvatronics_products",
+                "Category:MerenData_products",
+                "Category:Ayelixe/Krongbing_Textiles_products",
+                "Category:Mesens_Corporation_products",
+                "Category:Novaldex_products",
+                "Category:SedriMotors_Ltd._products",
+                "Category:Tana_Ire_products",
+                "Category:KonGar_Ship_Works_products",
+                "Category:Melody_Fellowship_products",
+                "Category:Kellenech_Technologies_products",
+                "Category:Arakyd_Aerodynes,_Incorporated_products",
+                "Category:Crozo_Industrial_Products_products",
+                "Category:Exelbrok_products",
+                "Category:Locris_Syndicated_Securities_products",
+                "Category:Shobquix_Yards_products",
+                "Category:Imperial_Machines_products",
+                "Category:Eleaor_Propulsion_products",
+                "Category:Syncronics_products",
+                "Category:Rheshalva_Interstellar_Armaments_products",
+                "Category:Zenoti_Arms_products",
+                "Category:Kelvarek_Consolidated_Arms_products",
+                "Category:Farwan_%26_Glott_products",
+                "Category:Starfeld_Industries_products",
+                "Category:Eirriss_Ryloth_Defense_Tech_products",
+                "Category:Core_Galaxy_Systems_products",
+                "Category:Akin-Dower_products",
+                "Category:Dolmax_products",
+                "Category:Nen-Carvon_products",
+                "Category:Affodies_Crafthouse_of_Pure_Neimoidia_products",
+                "Category:Borliss_Automation_Concepts,_Incorporated_products",
+                "Category:Nicholas/Gordon_Spacewerks_products",
+                "Category:Greff-Timms_Industrial_products",
+                "Category:Pantolomin_Shipwrights_products",
+                "Category:Yuung,_Tygg_%26_Josse_Engineering_products",
+                "Category:Bothawui_Communications_Conglomerate_products",
+                "Category:Conner_Ship_Systems_products",
+                "Category:Baktoid_Industrial_Systems_products",
+                "Category:Gatrellis_products",
+                "Category:Salamini_Chemical_Munitions_products",
+                "Category:VenteX_Construction_Yards_products",
+                "Category:Baktoid_Combat_Automata_products",
+                "Category:Rim_Securities_products",
+                "Category:FreiTek,_Inc_products",
+                "Category:Golden_Nyss_Shipyards_products",
+                "Category:JAK_Racing_products",
+                "Category:Nordoxicon_products",
+                "Category:Gwori_Revolutionary_Industries_products",
+                "Category:BramDorc_Corporation_products",
+                "Category:Rodian_D-Tec_products",
+                "Category:Koros_Spaceworks_products",
+                "Category:Zaltin_Corporation_products",
+                "Category:Locris_Syndicates_products",
+                "Category:Mrlsst_Motorworks_products",
+                "Category:Free_Dac_Volunteers_Engineering_Corps_products",
+                "Category:Corellia_Mining_Corporation_products",
+                "Category:Mon_Calamari_Shipyards_products",
+                "Category:Tramora_Interstellar_Communications_products",
+                "Category:AccuTronics_products",
+                "Category:Durkish_Corporation_products",
+                "Category:Allegra_Enterprise_Systems_products",
+                "Category:Cartel_Secureworks_products",
+                "Category:Michaud_Industries_products",
+                "Category:New_Republic_Department_of_Research_and_Development_products",
+                "Category:Bavakar_Medical_Research_Labs_products",
+                "Category:Charubah_Industries_products",
+                "Category:Galactic_Solutions_Industries_products",
+                "Category:Kelvarex_Consolidated_Arms_products",
+                "Category:Subpro_Corporation_products",
+                "Category:Jal-Parra_products",
+                "Category:Okara_Droid_Company_products",
+                "Category:Surron_StarTech_products",
+                "Category:Gandorthral_Atmospherics_products",
+                "Category:Huppla_Pasa_Tisc_Shipwrights_Collective_products",
+                "Category:Nazfar_Metalworks_Guild_products",
+                "Category:Trilon,_Inc._products",
+                "Category:Damorian_Manufacturing_Corporation_products",
+                "Category:Kelliak_Arms_and_Armor_Company_products",
+                "Category:Greel_Wood_Logging_Corporation_products",
+                "Category:ArMek_products",
+                "Category:Senko_systems_products",
+                "Category:Zonama_Sekot_Shipbuilders_products",
+                "Category:Keizar-Volvec_products",
+                "Category:Karflo_Corporation_products",
+                "Category:Plescinia_Entertainments_products",
+                "Category:Pretormin_Environmental_products",
+                "Category:Elrood_StarYards_Limited_products",
+                "Category:Mekuun_Corporation_products",
+                "Category:Sienar-Jaemus_Army_Systems_products",
+                "Category:Sonn-Blas_Corporation_products",
+                "Category:Pitareeze_Inc._products",
+                "Category:Vectron_products",
+                "Category:SoroSuub_Corporation_products",
+                "Category:Botajef_Shipyards_products",
+                "Category:Prexton_products",
+                "Category:Krupx_Munitions_products",
+                "Category:Ghtroc_Industries_products",
+                "Category:Chiewab_Amalgamated_Pharmaceuticals_Company_products",
+                "Category:Krail_Armory_products",
+                "Category:Olanji/Charubah_products",
+                "Category:Kel-Mar_products",
+                "Category:GoCorp_products",
+                "Category:Trang_Robotics_products",
+                "Category:Bertriak_products",
+                "Category:GTU_products",
+                "Category:Telex-Delcor_products",
+                "Category:Tobus_products",
+                "Category:Narglatch_AirTech_products",
+                "Category:Justice_Systems_products",
+                "Category:Coachelle_Automata_products",
+                "Category:Galactic_Power_Engineering_products",
+                "Category:Manta_RamAir_products",
+                "Category:Duwani_Mechanical_Products_products",
+                "Category:Daystar_Craft_products",
+                "Category:Yutrane-Trackata_products",
+                "Category:Maxwell_%26_Son_products",
+                "Category:Aeramaxis_Technologies_products",
+                "Category:Bakur_RepulsorCorp_products",
+                "Category:Byblos_Drive_Yards_products",
+                "Category:Meirm_Speeder_Emporium_products",
+                "Category:Kuat_Drive_Yards_products",
+                "Category:Hyrotii_Corporation_products",
+                "Category:Dymek_products",
+                "Category:Drendan_products",
+                "Category:Galentro_Heavy_Works_products",
+                "Category:Joko_products",
+                "Category:Slayn_%26_Korpil_products",
+                "Category:Elmainin_Armaments_products",
+                "Category:Carida_Engines_products",
+                "Category:Ralion_products",
+                "Category:Nova-Drive_products",
+                "Category:Otoh_Gunga_Defense_League_products",
+                "Category:Brodan_products",
+                "Category:Salus_Corporation_products",
+                "Category:Microaxial_products",
+                "Category:Delvin_Constructs_products",
+                "Category:LeisureMech_Enterprises_products",
+                "Category:Plintep_Cybernetics_Corporation_products",
+                "Category:Veril_Line_Systems_products",
+                "Category:Quadex_products",
+                "Category:Felebreck_Electrical_Defense_Systems_products",
+                "Category:Menstar_Motors_products",
+                "Category:Morlinger_products",
+                "Category:Kyrotech_Corporate_Combine_products",
+                "Category:Amzab_products",
+                "Category:Kubrai_Transportation_products",
+                "Category:Bryn_%26_Gweith_products",
+                "Category:Corellian_Engineering_Corporation_products",
+                "Category:Galactic_Electronics_products",
+                "Category:Kuat-Entralla_Engineering_products",
+                "Category:Medtech_Industries_products",
+                "Category:Orko_SkyMine_Asteroid_Processing_Corporation_products",
+                "Category:Hraki_Adventure_Motors_products",
+                "Category:Gallis-Tech_products",
+                "Category:Gefferon_Pleasure_Craft_products",
+                "Category:Farrfin_Droidworks_products",
+                "Category:Timms_UniStar_Armaments_products",
+                "Category:Vokoff-Strood_products",
+                "Category:Mier-Lang_products",
+                "Category:Corellian_Technologies_products",
+                "Category:Atgar_SpaceDefense_Corporation_products",
+                "Category:Yalandross_PowerMasters_products",
+                "Category:Publictechnic_products",
+                "Category:Tykannin_Turbines_products",
+                "Category:Cestus_Cybernetics_products",
+                "Category:Ikas-Adno_products",
+                "Category:Irakie_products",
+                "Category:Genetech_Corporation_products",
+                "Category:MicroData_Technologies_products",
+                "Category:Opirus_products",
+                "Category:Muurian_Interstellar_products",
+                "Category:Tenloss_Criminal_Syndicate_products",
+                "Category:Tion_Industries_products",
+                "Category:Creshaldyne_Industries_products",
+                "Category:Kashnir_Arms_products",
+                "Category:Gallofree_Yards,_Inc._products",
+                "Category:Chempat_Engineered_Defenses_products",
+                "Category:Saltech_products",
+                "Category:CoMar_Combat_Systems_products",
+                "Category:Astroserver_Industries_products",
+                "Category:Min-Dal_Company_products",
+                "Category:Alliwon_Electronics_products",
+                "Category:Drearian_Defense_Conglomerate_products",
+                "Category:Corporate_Alliance_products",
+                "Category:Sienar-Jaemus_Fleet_Systems_products",
+                "Category:Karydee_products",
+                "Category:Alderaan_Royal_Engineers_products",
+                "Category:Hydrospeare_Corporation_products",
+                "Category:Serv-O-Droid,_Inc._products",
+                "Category:Radon-Ulzer_products",
+                "Category:Tirsa_Wargear_Corporation_products",
+                "Category:Holowan_Mechanicals_products",
+                "Category:Suwantek_Systems_products",
+                "Category:Republic_Shipyards_products",
+                "Category:Larjh_StarCorporation_products",
+                "Category:Otoh_Gunga_Bongameken_Cooperative_products",
+                "Category:Arakyd_Industries_products",
+                "Category:Alliance_Underground_Engineering_products",
+                "Category:Dornean_Braha%27ket_Fleetworks_Conglomerate_products",
+                "Category:Lhosan_Industries_products",
+                "Category:Adventure_Hiker_and_Hunter_products",
+                "Category:Galinolo_products",
+                "Category:Elsinore-Cordova_Engineering_products",
+                "Category:Neuro-Saav_Corporation_products",
+                "Category:Frohad_Galactic_Firearms_products",
+                "Category:Tykannin_Drive_products",
+                "Category:Walkhar_products",
+                "Category:Rark_products",
+                "Category:Nanogar_products",
+                "Category:Regallis_Engineering_products",
+                "Category:Corellian_Arms_products",
+                "Category:ZZip_Product_Concepts_Limited_products",
+                "Category:Industrial_Automaton_products",
+                "Category:Narmox_products",
+                "Category:Tagge_Company_products",
+                "Category:Corporate_Sector_Authority_products",
+                "Category:Roche_Hive_Mechanical_Apparatus_Design_and_Construction_Activity_for_Those_Who_Need_the_Hive%27s_Machines_products",
+                "Category:Uulshos_Manufacturing_products",
+                "Category:Ulban_Arms_products",
+                "Category:Taim_%26_Bak_products",
+                "Category:Koromondain_PDS,_Incorporated_products",
+                "Category:Incom_Corporation_products",
+                "Category:Sarylcorp_products",
+                "Category:SeaScape_products",
+                "Category:Tapani_Starship_Cooperative_products",
+                "Category:Desler_Gizh_Outworld_Mobility_Corporation_products",
+                "Category:Damorind_Securities_products",
+                "Category:Koensayr_Manufacturing_products",
+                "Category:Collor_Pondrat_products",
+                "Category:Merr-Sonn_Munitions,_Inc._products",
+                "Category:Frommon_products",
+                "Category:Golan_Arms_products",
+                "Category:Neuro-Saav_Technologies_products",
+                "Category:Rendili_StarDrive_products",
+                "Category:Genetech_products",
+                "Category:Kurtob_products",
+                "Category:Buuper_Torsckil_Abbey_Devices_products",
+                "Category:Appazanna_Engineering_Works_products",
+                "Category:Caldrahlsen_Mechanicals_products",
+                "Category:Prinawe_products",
+                "Category:SurvivalGear_products",
+                "Category:SecuriTech_Corporation_products",
+                "Category:Rytell_Corporation_products",
+                "Category:Naescorcom_products",
+                "Category:Chandril_Tech_products",
+                "Category:Corellian_Personal_Defense_products",
+                "Category:Kalibac_Industries_products",
+                "Category:Phylon_Freight_products",
+                "Category:Balmorran_Arms_products",
+                "Category:Xarnin_Medical_Technologies_products",
+                "Category:Bendine_products",
+                "Category:Balta-Trabaat_products",
+                "Category:Lergo_products",
+                "Category:Rebaxan_Columni_products",
+                "Category:Alkherrodyne_Propulsions_products",
+                "Category:Tac-Spec_Corporation_products",
+                "Category:Isu-Sim_products",
+                "Category:Xizor_Transport_Systems_products"
+            ],
+            "full_url": "http://starwars.wikia.com/wiki/Category:Products_by_company",
+            "href": "/wiki/Category:Products_by_company",
+            "instances": [],
+            "parents": [],
+            "title": "Category:Products_by_company"
+        }
+    },
+    "instances": {
+        "2-E": {
+            "full_url": "http://starwars.wikia.com/wiki/2-E",
+            "href": "/wiki/2-E",
+            "parents": [
+                "Category:Model_E_baby-sitting_droids"
+            ],
+            "title": "2-E"
+        },
+        "AccuTronics": {
+            "full_url": "http://starwars.wikia.com/wiki/AccuTronics",
+            "href": "/wiki/AccuTronics",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "AccuTronics"
+        },
+        "Adventure_Hiker_and_Hunter": {
+            "full_url": "http://starwars.wikia.com/wiki/Adventure_Hiker_and_Hunter",
+            "href": "/wiki/Adventure_Hiker_and_Hunter",
+            "parents": [
+                "Category:Adventure_Hiker_and_Hunter_products"
+            ],
+            "title": "Adventure_Hiker_and_Hunter"
+        },
+        "Aeramaxis_Technologies": {
+            "full_url": "http://starwars.wikia.com/wiki/Aeramaxis_Technologies",
+            "href": "/wiki/Aeramaxis_Technologies",
+            "parents": [
+                "Category:Aeramaxis_Technologies_products"
+            ],
+            "title": "Aeramaxis_Technologies"
+        },
+        "Affodies_Crafthouse_of_Pure_Neimoidia": {
+            "full_url": "http://starwars.wikia.com/wiki/Affodies_Crafthouse_of_Pure_Neimoidia",
+            "href": "/wiki/Affodies_Crafthouse_of_Pure_Neimoidia",
+            "parents": [
+                "Category:Affodies_Crafthouse_of_Pure_Neimoidia_products"
+            ],
+            "title": "Affodies_Crafthouse_of_Pure_Neimoidia"
+        },
+        "B1-series_worker_droid": {
+            "full_url": "http://starwars.wikia.com/wiki/B1-series_worker_droid",
+            "href": "/wiki/B1-series_worker_droid",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "B1-series_worker_droid"
+        },
+        "CL-3_Droid_Command_Link": {
+            "full_url": "http://starwars.wikia.com/wiki/CL-3_Droid_Command_Link",
+            "href": "/wiki/CL-3_Droid_Command_Link",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "CL-3_Droid_Command_Link"
+        },
+        "DuraShelter": {
+            "full_url": "http://starwars.wikia.com/wiki/DuraShelter",
+            "href": "/wiki/DuraShelter",
+            "parents": [
+                "Category:Adventure_Hiker_and_Hunter_products"
+            ],
+            "title": "DuraShelter"
+        },
+        "Evasive-13_individual_field_disruptor": {
+            "full_url": "http://starwars.wikia.com/wiki/Evasive-13_individual_field_disruptor",
+            "href": "/wiki/Evasive-13_individual_field_disruptor",
+            "parents": [
+                "Category:Aeramaxis_Technologies_products"
+            ],
+            "title": "Evasive-13_individual_field_disruptor"
+        },
+        "Evasive-226-R_field_disruptor": {
+            "full_url": "http://starwars.wikia.com/wiki/Evasive-226-R_field_disruptor",
+            "href": "/wiki/Evasive-226-R_field_disruptor",
+            "parents": [
+                "Category:Aeramaxis_Technologies_products"
+            ],
+            "title": "Evasive-226-R_field_disruptor"
+        },
+        "MK_8001_Attendant_Droid": {
+            "full_url": "http://starwars.wikia.com/wiki/MK_8001_Attendant_Droid",
+            "href": "/wiki/MK_8001_Attendant_Droid",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "MK_8001_Attendant_Droid"
+        },
+        "Mechno-chair/Legends": {
+            "full_url": "http://starwars.wikia.com/wiki/Mechno-chair/Legends",
+            "href": "/wiki/Mechno-chair/Legends",
+            "parents": [
+                "Category:Affodies_Crafthouse_of_Pure_Neimoidia_products"
+            ],
+            "title": "Mechno-chair/Legends"
+        },
+        "Model_6_modular_backpack": {
+            "full_url": "http://starwars.wikia.com/wiki/Model_6_modular_backpack",
+            "href": "/wiki/Model_6_modular_backpack",
+            "parents": [
+                "Category:Adventure_Hiker_and_Hunter_products"
+            ],
+            "title": "Model_6_modular_backpack"
+        },
+        "Model_E_baby-sitting_droid": {
+            "full_url": "http://starwars.wikia.com/wiki/Model_E_baby-sitting_droid",
+            "href": "/wiki/Model_E_baby-sitting_droid",
+            "parents": [
+                "Category:Model_E_baby-sitting_droids"
+            ],
+            "title": "Model_E_baby-sitting_droid"
+        },
+        "Modular_Medium_Planar_Pincher": {
+            "full_url": "http://starwars.wikia.com/wiki/Modular_Medium_Planar_Pincher",
+            "href": "/wiki/Modular_Medium_Planar_Pincher",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "Modular_Medium_Planar_Pincher"
+        },
+        "Q-E": {
+            "full_url": "http://starwars.wikia.com/wiki/Q-E",
+            "href": "/wiki/Q-E",
+            "parents": [
+                "Category:Model_E_baby-sitting_droids"
+            ],
+            "title": "Q-E"
+        },
+        "Ration_pack/Legends": {
+            "full_url": "http://starwars.wikia.com/wiki/Ration_pack/Legends",
+            "href": "/wiki/Ration_pack/Legends",
+            "parents": [
+                "Category:Adventure_Hiker_and_Hunter_products"
+            ],
+            "title": "Ration_pack/Legends"
+        },
+        "TDL-3.5": {
+            "full_url": "http://starwars.wikia.com/wiki/TDL-3.5",
+            "href": "/wiki/TDL-3.5",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "TDL-3.5"
+        },
+        "TDL-501_unipod_waitress_droid": {
+            "full_url": "http://starwars.wikia.com/wiki/TDL-501_unipod_waitress_droid",
+            "href": "/wiki/TDL-501_unipod_waitress_droid",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "TDL-501_unipod_waitress_droid"
+        },
+        "TDL_nanny_droid": {
+            "full_url": "http://starwars.wikia.com/wiki/TDL_nanny_droid",
+            "href": "/wiki/TDL_nanny_droid",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "TDL_nanny_droid"
+        },
+        "U-E": {
+            "full_url": "http://starwars.wikia.com/wiki/U-E",
+            "href": "/wiki/U-E",
+            "parents": [
+                "Category:Model_E_baby-sitting_droids"
+            ],
+            "title": "U-E"
+        },
+        "Wideview_Binocular_Dome_Head": {
+            "full_url": "http://starwars.wikia.com/wiki/Wideview_Binocular_Dome_Head",
+            "href": "/wiki/Wideview_Binocular_Dome_Head",
+            "parents": [
+                "Category:AccuTronics_products"
+            ],
+            "title": "Wideview_Binocular_Dome_Head"
+        },
+        "Xeno": {
+            "full_url": "http://starwars.wikia.com/wiki/Xeno",
+            "href": "/wiki/Xeno",
+            "parents": [
+                "Category:Affodies_Crafthouse_of_Pure_Neimoidia_products"
+            ],
+            "title": "Xeno"
+        }
+    },
+    "name": "starwars_Category:Products_by_company"
+}

@@ -1,0 +1,8 @@
+{
+    "base": "http://starwars.wikia.com",
+    "base_category": "Products_by_company",
+    "base_category_url": "/wiki/Category:Products_by_company",
+    "categories": null,
+    "instances": null,
+    "name": "starwars_Products_by_company"
+}
