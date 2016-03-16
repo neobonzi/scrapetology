@@ -19,6 +19,18 @@ def get_arg_parser(description):
                                    description=description,
                                    formatter_class=SmartFormatter
                                    )
+def get_log_arg_parser(description):
+    arg_parser = get_arg_parser(description)
+    arg_parser.add_argument('-d', '--debug',
+            action='store_true',
+            help='enable debug output')
+    arg_parser.add_argument('-v', '--verbose',
+            action='store_true',
+            help='enable verbose output')
+    arg_parser.add_argument('-q', '--quiet',
+            action='store_true',
+            help='forces quiet output (overrides anything else)')
+    return arg_parser
 
 DESC = 'Scrapes the category section of Star Wars to automatically build an ontology.'
 def args_build_ontology(description=DESC):
@@ -46,21 +58,8 @@ def args_build_graph():
 
 def args_make_rdf():
   description = 'Uses data scraped from the Star Wars wikia website to generate a rdf/xml graph'
-  arg_parser = get_arg_parser(description)
+  arg_parser = get_log_arg_parser(description)
   req = arg_parser.add_argument_group('required arguments')
-
-  req.add_argument('-d', '--debug',
-                   action='store_true',
-                   help='enable debug output')
-
-
-  req.add_argument('-v', '--verbose',
-                   action='store_true',
-                   help='enable verbose output')
-
-  req.add_argument('-q', '--quiet',
-                   action='store_true',
-                   help='forces quiet output (overrides anything else)')
 
   req.add_argument('-p', '--pickle',
                    required=True,
