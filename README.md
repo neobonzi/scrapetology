@@ -37,6 +37,7 @@ Further features have been added in the triviabot3/ version:
 
 * category/
   * Contains code to parse a MediaWiki's Category page hierarchy via html and code to convert the resulting data structure into an RDF/OWL representation.
+	* rdflib_graph.py will generate an xml output of a graph using the pickled object that was created previously. User can specify a filename for output when running the program.
 * triviabot/
   * A python2 implementation of the Star Wars Trivia Bot located at:
     * http://jamesbilous.com/
