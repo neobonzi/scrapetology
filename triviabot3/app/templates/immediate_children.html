@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2 align="center">Welcome to the Star Wars Trivia Bot!</h2>
+    <h3 align="center">Find the immediate subcategories and instances a category has:</h2>
+    <div class="row">
+        <form action="/immediate_children" method="post" name="queryForm" class="form-horizontal" role="form">
+        {{ form.hidden_tag() }}
+        <div class="col-sm-12">
+        <input type="text" name="query" class="query-box form-control" placeholder="Enter a category">
+        </div>
+    </div>
+{% endblock %}

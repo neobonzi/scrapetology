@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2 align="center">Welcome to the Star Wars Trivia Bot!</h2>
+    <h3 align="center">Run a simple SPARQL Query (use swdb, owl, rdfs):</h3>
+    <h4 align="left">Examples:</h4>
+    <ul>
+        <li>
+            <tt>
+                SELECT ?title WHERE { ?subject rdfs:subClassOf swdb:Governors_of_the_Galactic_Empire . ?subject owl:title ?title . }
+            </tt>
+        </li>
+        <li>
+            <tt>
+                SELECT ?title WHERE { swdb:Han_Solo rdfs:subClassOf ?subject . ?subject owl:title ?title . }
+            </tt>
+        </li>
+    </ul>
+    <div class="row">
+        <form action="/sparql" method="post" name="queryForm" class="form-horizontal" role="form">
+        {{ form.hidden_tag() }}
+        <div class="col-sm-12">
+        <input type="text" name="query" class="query-box form-control" placeholder="Enter your SPARQL Query">
+        </div>
+    </div>
+{% endblock %}
