@@ -3,12 +3,12 @@ CPE-581
 
 Winter 2016
 
-Team Members:
+## Team Members:
 * James Bilous
 * Jon Doughty
 * Jeff McGovern
 
-Description:
+## Project Description:
 Scrapetology is a web application with tools written in python to allow
 for the gathering of data, restructuring of data into an ontology, and querying of the
 data via web interface. The ontology is ultimately hosted on a website which allows
@@ -34,12 +34,8 @@ Further features have been added in the triviabot3/ version:
 * Limited SPARQL querying, with examples for unions and intersections for easy copying and modification
 
 
-##
-Current Trivia Bot Helper Sites:
 
-
-##
-Description of Relevant Files:
+## Description of Relevant Files:
 
 * category/
   * Contains code to parse a MediaWiki's Category page hierarchy via html and code to convert the above data structure into an RDF/OWL representation.
