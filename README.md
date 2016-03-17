@@ -33,12 +33,10 @@ Further features have been added in the triviabot3/ version:
 * Finding all child/parent category and instance relationships
 * Limited SPARQL querying, with examples for unions and intersections for easy copying and modification
 
-
-
 ## Description of Relevant Files:
 
 * category/
-  * Contains code to parse a MediaWiki's Category page hierarchy via html and code to convert the above data structure into an RDF/OWL representation.
+  * Contains code to parse a MediaWiki's Category page hierarchy via html and code to convert the resulting data structure into an RDF/OWL representation.
 * triviabot/
   * A python2 implementation of the Star Wars Trivia Bot located at:
     * http://jamesbilous.com/
