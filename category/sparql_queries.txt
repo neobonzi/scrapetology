@@ -61,3 +61,4 @@ SELECT ?subject ?object
 	WHERE { ?subject rdfs:subClassOf* swdb:Category_Governers_Of_The_Galactic_Empire}
 
 SELECT ?title WHERE { ?subject rdfs:subClassOf swdb:Individuals . ?subject owl:title ?title .}
+SELECT ?title WHERE { swdb:Individual rdfs:subClassOf ?subject . ?subject owl:title ?title .}
