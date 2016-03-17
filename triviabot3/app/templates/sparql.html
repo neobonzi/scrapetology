@@ -21,7 +21,17 @@
         </li>
         <li>
             <tt>
-                SELECT ?title WHERE { swdb:Han_Solo rdfs:subClassOf* ?subject . ?subject owl:title ?title . }
+                SELECT ?title WHERE { swdb:Leia rdfs:subClassOf* ?subject . ?subject owl:title ?title . }
+            </tt>
+        </li>
+        <li>
+            <tt>
+                SELECT ?title WHERE { { ?subject rdfs:subClassOf* swdb:Category_Sith . ?subject owl:title ?title . } UNION { ?subject rdfs:subClassOf* swdb:Category_Royalty . ?subject owl:title ?title . } }
+            </tt>
+        </li>
+        <li>
+            <tt>
+                SELECT ?title WHERE { swdb:Luke_Skywalker rdfs:subClassOf* ?subject . swdb:Han_Solo rdfs:subClassOf* ?subject . ?subject owl:title ?title . }
             </tt>
         </li>
     </ul>

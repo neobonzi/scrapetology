@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
     <h2 align="center">Welcome to the Star Wars Trivia Bot!</h2>
-    <h3 align="center">Find all the immediate category an entity falls under:</h2>
+    <h3 align="center">Find all the categories an entity falls under:</h2>
     <div class="row">
         <form action="/all_parents" method="post" name="queryForm" class="form-horizontal" role="form">
         {{ form.hidden_tag() }}
