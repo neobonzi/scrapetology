@@ -121,6 +121,33 @@ def immediate_parents():
 
 @app.route('/immediate_children', methods=['GET', 'POST'])
 def immediate_children():
+    query_parser = ImmediateChildrenParser()
+    form = QueryForm()
+    if form.validate_on_submit():
+        input = form.query.data
+
+        # Parse Query
+        LOGGER.debug('QUERY:INPUT:%s', input)
+        sparql_query = query_parser.get_query(input)
+        LOGGER.debug('QUERY:SPARQL:%s', sparql_query)
+
+        # Results
+        results = None
+        try:
+            LOGGER.debug('QUERY:%s', 'RUNNING')
+            results = graph.query(sparql_query)
+            LOGGER.debug('QUERY:%s', 'DONE')
+            LOGGER.debug('QUERY:%s', 'PRINTING:results...')
+            # Print Results
+            print_results(input, results, query_parser)
+            LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
+        except Exception as e:
+            # Ignore Exceptions
+            flash('"{}" resulted in an error: {}'.format(input, e))
+            LOGGER.error('CAUGHT:%s', e)
+            pass
+
+    LOGGER.debug('RETURNING')
     #return redirect('/index')
     return render_template('immediate_children.html',
             title='Star Wars Trivia Bot:Immediate Parents',
