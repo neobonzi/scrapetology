@@ -18,7 +18,10 @@ class SPARQLQueryParser(QueryParser):
 
 class WikiInputParser(SPARQLQueryParser):
     def format_entity(self, entity):
-        return entity.strip().replace(' ', '_')
+        output = entity.strip()
+        output = output.replace(' ','_')
+        output = output.replace(':','_')
+        return output
     def get_query(self, input):
         return self.QUERY_FORMAT % self.format_entity(input)
 
