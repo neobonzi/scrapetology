@@ -45,6 +45,7 @@ def strip_invalid(text):
 
 # NOTE: for now instances are subClassOf their parents, this is probably not the best practice and should be changed so that instances are a rdf:type of the class they belong to. However, can't seem to get the code working.
 def add_instance(graph, inst_dict, key, class_of):
+    LOGGER.debug('%s', key)
     title = strip_invalid(inst_dict[key].title)
     href = inst_dict[key].href
     graph_add(graph, URIRef(SWDB[title]), RDF.type, OWL.NamedIndividual)
@@ -53,12 +54,15 @@ def add_instance(graph, inst_dict, key, class_of):
     graph_add(graph, URIRef(SWDB[title]), OWL.title, Literal(title))
     graph_add(graph, URIRef(SWDB[title]), OWL.href, Literal(href))
 
+MW='mw-pages'
 def add_class(graph, sw_dict, key, sw_instances):
     LOGGER.debug('%s', key)
     title = strip_invalid(sw_dict[key].title)
     href = sw_dict[key].href
     parents = sw_dict[key].parents
     instances = sw_dict[key].instances
+    assert(MW not in title)
+    assert(MW not in href)
     graph_add(graph, URIRef(SWDB[title]), RDF.type, OWL.Class)
     graph_add(graph, URIRef(SWDB[title]), OWL.title, Literal(title))
     graph_add(graph, URIRef(SWDB[title]), OWL.href, Literal(href))
@@ -66,6 +70,7 @@ def add_class(graph, sw_dict, key, sw_instances):
     # parent should be the title, can use to look up self.categories[title]
     if parents:
         for parent in parents:
+            assert(MW not in parent)
             parent = strip_invalid(parent)
             graph_add(graph, URIRef(SWDB[title]), RDFS.subClassOf, URIRef(SWDB[parent]))
     if instances:

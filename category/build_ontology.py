@@ -102,7 +102,10 @@ class StarWarsHTMLWikiParser(HTMLWikiParser):
         for soup in soups:
             mw_pages = soup.findAll("div", id="mw-pages")
             if mw_pages:
-                [instances.append(i) for i in mw_pages[0].findAll("a") if i.get('title') and i.get('href')]
+                for m in mw_pages[0].findAll("a"):
+                    if m.get('title') and m.get('href') and "mw-pages" not in m.get('href'):
+                        instances.append(m)
+                #[instances.append(i) for i in mw_pages[0].findAll("a") if i.get('title') and i.get('href') and ""]
         [LOGGER.debug('PARSED:INSTANCE:{}'.format(i.get('href'))) for i in instances]
         return instances;
 

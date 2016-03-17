@@ -68,3 +68,15 @@ def args_make_rdf():
                    help='input ontology pickle filename')
 
   return arg_parser
+
+def args_query_rdf():
+  description = 'Tests various queries on the RDF graph'
+  arg_parser = get_log_arg_parser(description)
+  req = arg_parser.add_argument_group('required arguments')
+  req.add_argument('-p', '--pickle',
+                   required=True,
+                   action='store',
+                   metavar='<filename>',
+                   help='input RDF Graph object pickle filename')
+
+  return arg_parser
