@@ -7,7 +7,7 @@ Winter 2016
 * James Bilous
 * Jon Doughty
 * Jeff McGovern
-* 
+
 This project may also be viewed on:
 * https://github.com/neobonzi/scrapetology/
 
