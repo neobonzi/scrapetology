@@ -41,7 +41,8 @@ def strip_invalid(text):
     ir2 = ir.replace("\"", "")
     ir3 = ir2.replace("'", "")
     ir4 = ir3.replace("^", "")
-    return ir4
+    ir5 = ir4.replace(":", "_")
+    return ir5
 
 # NOTE: for now instances are subClassOf their parents, this is probably not the best practice and should be changed so that instances are a rdf:type of the class they belong to. However, can't seem to get the code working.
 def add_instance(graph, inst_dict, key, class_of):
