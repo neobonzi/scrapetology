@@ -1,0 +1,63 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?subject ?object
+	WHERE { ?subject rdfs:subClassOf ?object }
+
+# total number of triples
+SELECT (COUNT(*) AS ?no) { ?s ?p ?o }
+
+# total number of entities
+SELECT (COUNT(distinct ?s) AS ?no) { ?s a [] }
+
+# total number of distinct resource URIs (deprecated??)
+SELECT (COUNT(DISTINCT ?s ) AS ?no) { { ?s ?p ?o } UNION { ?o ?p ?s } FILTER(!isBlank(?s) && !isLiteral(?s)) } 
+
+# total number of distinct classes
+SELECT (COUNT(distinct ?o) AS ?no) { ?s rdf:type ?o }
+
+# total number of distinct predicates
+SELECT (count(distinct ?p)) { ?s ?p ?o }
+
+# total number of distinct subject nodes
+SELECT (COUNT(DISTINCT ?s ) AS ?no) { ?s ?p ?o }
+
+# total number of distinct object nodes
+SELECT (COUNT(DISTINCT ?o ) AS ?no) { ?s ?p ?o filter(!isLiteral(?o)) } 
+
+# exhaustive list of classes used in the dataset
+SELECT DISTINCT ?type { ?s a ?type }
+
+# exhaustive list of properties used in the dataset
+SELECT DISTINCT ?p { ?s ?p ?o }
+
+# table: class vs. total number of instances of the class
+SELECT ?class (COUNT(?s) AS ?count ) { ?s a ?class } GROUP BY ?class ORDER BY ?count
+
+# table: property vs. total number of triples using the property
+SELECT ?p (COUNT(?s) AS ?count ) { ?s ?p ?o } GROUP BY ?p ORDER BY ?count
+
+# table: property vs. total number of distinct subjects in triples using the property
+SELECT ?p (COUNT(DISTINCT ?s ) AS ?count ) { ?s ?p ?o } GROUP BY ?p ORDER BY ?count
+
+# table: property vs. total number of distinct objects in triples using the property
+SELECT ?p (COUNT(DISTINCT ?o ) AS ?count ) { ?s ?p ?o } GROUP BY ?p ORDER BY ?count
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX swdb: <http://starwars.wikia.com/wiki/Star_wars_ontology.owl#>
+SELECT ?subject ?object ?title ?href
+	WHERE { ?subject rdfs:subClassOf ?object.  ?object owl:title ?title . ?object owl:href ?href}
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX swdb: <http://starwars.wikia.com/wiki/Star_wars_ontology.owl#>
+SELECT ?subject ?object
+	WHERE { ?subject rdfs:subClassOf* swdb:Category_Governers_Of_The_Galactic_Empire}
+
+SELECT ?title WHERE { ?subject rdfs:subClassOf swdb:Individuals . ?subject owl:title ?title .}
