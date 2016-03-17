@@ -51,6 +51,8 @@ Further features have been added in the triviabot3/ version:
     * http://jdmcg.org:5000/sparql
 * LOG.md
   * The log of hours for each teammate
+* presentation.pdf
+  * A PDF version of the Google Slides document we will use to present
 * README.md
   * This document, describing the project and the relevant files.
 * research.bib
