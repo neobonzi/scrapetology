@@ -7,6 +7,9 @@ Winter 2016
 * James Bilous
 * Jon Doughty
 * Jeff McGovern
+* 
+This project may also be viewed on:
+* https://github.com/neobonzi/scrapetology/
 
 ## Project Description:
 Scrapetology is a web application with tools written in python to allow
