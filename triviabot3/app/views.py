@@ -39,29 +39,33 @@ def index():
 
 @app.route('/query', methods=['GET', 'POST'])
 def query():
+    query_parser = ImmediateChildrenParser()
     form = QueryForm()
-    if form.validate_on_submit(): 
-        LOGGER.debug('QUERY:%s', form.query.data)
-        query = form.query.data
-#        query = form.query.data.replace("What are types of ", "")
-#        query = query.replace(" ", "_")
-#        sparql_query = QUERY_CATEGORY % query
-        sparql_query = query
-        LOGGER.debug('QUERY:%s', sparql_query)
+    if form.validate_on_submit():
+        input = form.query.data.replace("What are types of ", "")
+
+        # Parse Query
+        LOGGER.debug('QUERY:INPUT:%s', input)
+        sparql_query = query_parser.get_query(input)
+        LOGGER.debug('QUERY:SPARQL:%s', sparql_query)
+
+        # Results
         results = None
         try:
+            LOGGER.debug('QUERY:%s', 'RUNNING')
             results = graph.query(sparql_query)
             LOGGER.debug('QUERY:%s', 'DONE')
             LOGGER.debug('QUERY:%s', 'PRINTING:results...')
-            for row in results:
-                item = "%s" % row
-                flash(item.replace("_"," "))
+            # Print Results
+            print_results(input, results, query_parser)
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
+            # Ignore Exceptions
             flash('"{}" resulted in an error: {}'.format(input, e))
             LOGGER.error('CAUGHT:%s', e)
             pass
-    LOGGER.debug('RETURNING:query')
+
+    LOGGER.debug('RETURNING')
     return redirect('/index')
 
 def print_results(input, results, parser):
@@ -117,33 +121,6 @@ def immediate_parents():
 
 @app.route('/immediate_children', methods=['GET', 'POST'])
 def immediate_children():
-    query_parser = ImmediateChildrenParser()
-    form = QueryForm()
-    if form.validate_on_submit():
-        input = form.query.data
-
-        # Parse Query
-        LOGGER.debug('QUERY:INPUT:%s', input)
-        sparql_query = query_parser.get_query(input)
-        LOGGER.debug('QUERY:SPARQL:%s', sparql_query)
-
-        # Results
-        results = None
-        try:
-            LOGGER.debug('QUERY:%s', 'RUNNING')
-            results = graph.query(sparql_query)
-            LOGGER.debug('QUERY:%s', 'DONE')
-            LOGGER.debug('QUERY:%s', 'PRINTING:results...')
-            # Print Results
-            print_results(input, results, query_parser)
-            LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
-        except Exception as e:
-            # Ignore Exceptions
-            flash('"{}" resulted in an error: {}'.format(input, e))
-            LOGGER.error('CAUGHT:%s', e)
-            pass
-
-    LOGGER.debug('RETURNING')
     #return redirect('/index')
     return render_template('immediate_children.html',
             title='Star Wars Trivia Bot:Immediate Parents',
