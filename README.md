@@ -40,7 +40,8 @@ Further features have been added in the triviabot3/ version:
 * category/
   * Contains code to parse a MediaWiki's Category page hierarchy via html and code to convert the above data structure into an RDF/OWL representation.
 * triviabot/
-  * A python2 implementation of the Star Wars Trivia Bot
+  * A python2 implementation of the Star Wars Trivia Bot located at:
+    * http://jamesbilous.com/
 * triviabot3/
   * A python3 implementation of the Star Wars Trivia Bot, with a different URL and pages added as thus:
     * http://jdmcg.org:5000/
