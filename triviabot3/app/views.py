@@ -64,13 +64,19 @@ def query():
     LOGGER.debug('RETURNING:query')
     return redirect('/index')
 
-def print_results(input, results, filter_str):
-    info_str = 'Results for {}'.format(input)
+def print_results(input, results, parser):
+    if not results:
+        info_str = 'Alas, no results for "{}".'.format(input)
+        flash(info_str)
+        flash("Here's the resulting query:")
+        flash(parser.get_query(input))
+        return
+    info_str = 'Results for "{}"'.format(input)
     flash(info_str)
     flash('-' * len(info_str))
     for row in results:
         item = "%s" % row
-        item = filter_str(item)
+        item = parser.unfilter_entity(item)
         flash(item)
     return
 
@@ -94,8 +100,7 @@ def immediate_parents():
             LOGGER.debug('QUERY:%s', 'DONE')
             LOGGER.debug('QUERY:%s', 'PRINTING:results...')
             # Print Results
-            str_filter = lambda x : query_parser.unformat_entity(x)
-            print_results(input, results, str_filter)
+            print_results(input, results, query_parser)
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
             # Ignore Exceptions
@@ -127,8 +132,7 @@ def immediate_children():
             LOGGER.debug('QUERY:%s', 'DONE')
             LOGGER.debug('QUERY:%s', 'PRINTING:results...')
             # Print Results
-            str_filter = lambda x : query_parser.unformat_entity(x)
-            print_results(input, results, str_filter)
+            print_results(input, results, query_parser)
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
             # Ignore Exceptions
