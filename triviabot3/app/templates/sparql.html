@@ -6,7 +6,7 @@
     <ul>
         <li>
             <tt>
-                SELECT ?title WHERE { ?subject rdfs:subClassOf swdb:Governors_of_the_Galactic_Empire . ?subject owl:title ?title . }
+                SELECT ?title WHERE { ?subject rdfs:subClassOf swdb:Category_Governors_of_the_Galactic_Empire . ?subject owl:title ?title . }
             </tt>
         </li>
         <li>
@@ -16,7 +16,7 @@
         </li>
         <li>
             <tt>
-                SELECT ?title WHERE { ?subject rdfs:subClassOf* swdb:Individuals_by_family . ?subject owl:title ?title . }
+                SELECT ?title WHERE { ?subject rdfs:subClassOf* swdb:Category_Individuals_by_family . ?subject owl:title ?title . }
             </tt>
         </li>
         <li>
@@ -25,7 +25,12 @@
             </tt>
         </li>
     </ul>
-    <h4 align="left">Don't forget to use underscores for spaces.</h4>
+    <h4 align="left">Some Notes:</h4>
+    <ul>
+        <li>A category 'First word from Proper Noun' will have capitalization as shown, 'Category ' prepended, and underscores for spaces.</li>
+        <li>Instances have underscores for spaces.</li>
+        <li>Unicode is rough.</li>
+    </ul>
     <div class="row">
         <form action="/sparql" method="post" name="queryForm" class="form-horizontal" role="form">
         {{ form.hidden_tag() }}

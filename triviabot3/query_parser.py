@@ -61,6 +61,19 @@ class AllChildrenParser(WikiQueryParser):
             ?subject owl:title ?title .
         }'''
 
+class IntersectionParser(WikiQueryParser):
+    QUERY_FORMAT = '''SELECT ?title
+        WHERE {
+            %s
+            ?subject owl:title ?title .
+        }'''
+    PRED_FMT = '?subject rdfs:subClassOf swdb:%s . '
+    def get_query(self, input):
+        inner_query_string = ''
+        for i in input.split(','):
+            pred_string += self.PRED_FMT % self.format_entity(i)
+        return self.QUERY_FORMAT % pred_string
+
 def main():
     bleh = QueryParser()
     meh = SPARQLQueryParser()

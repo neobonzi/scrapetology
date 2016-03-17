@@ -20,7 +20,7 @@ LOGGER.setLevel(logging.DEBUG)
 
 import pickle
 graph = None
-GRAPH_PICKLE_FILENAME='app/static/test.pickle'
+GRAPH_PICKLE_FILENAME='app/static/sw_graph.pickle'
 LOGGER.debug('LOADING:%s', GRAPH_PICKLE_FILENAME)
 with open(GRAPH_PICKLE_FILENAME, 'rb') as file:
     graph = pickle.load(file)
@@ -58,7 +58,7 @@ def query():
                 flash(item.replace("_"," "))
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
-            flash('"{}" resulted in an error: {}'.format(query, e))
+            flash('"{}" resulted in an error: {}'.format(input, e))
             LOGGER.error('CAUGHT:%s', e)
             pass
     LOGGER.debug('RETURNING:query')
@@ -74,10 +74,13 @@ def print_results(input, results, parser):
     info_str = 'Results for "{}"'.format(input)
     flash(info_str)
     flash('-' * len(info_str))
-    for row in results:
-        item = "%s" % row
-        item = parser.unfilter_entity(item)
-        flash(item)
+    format = lambda x : parser.unformat_entity('%s' % x)
+    sorted_results = [format(r) for r in results]
+    sorted_results.sort()
+    for row in sorted_results:
+        #item = "%s" % row
+        #item = parser.unformat_entity(item)
+        flash(row)
     return
 
 @app.route('/immediate_parents', methods=['GET', 'POST'])
@@ -104,7 +107,7 @@ def immediate_parents():
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
             # Ignore Exceptions
-            flash('"{}" resulted in an error: {}'.format(query, e))
+            flash('"{}" resulted in an error: {}'.format(input, e))
             LOGGER.error('CAUGHT:%s', e)
             pass
     LOGGER.debug('RETURNING')
@@ -136,7 +139,7 @@ def immediate_children():
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
             # Ignore Exceptions
-            flash('"{}" resulted in an error: {}'.format(query, e))
+            flash('"{}" resulted in an error: {}'.format(input, e))
             LOGGER.error('CAUGHT:%s', e)
             pass
 
@@ -165,12 +168,11 @@ def all_parents():
             LOGGER.debug('QUERY:%s', 'DONE')
             LOGGER.debug('QUERY:%s', 'PRINTING:results...')
             # Print Results
-            str_filter = lambda x : query_parser.unformat_entity(x)
-            print_results(input, results, str_filter)
+            print_results(input, results, query_parser)
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
             # Ignore Exceptions
-            flash('"{}" resulted in an error: {}'.format(query, e))
+            flash('"{}" resulted in an error: {}'.format(input, e))
             LOGGER.error('CAUGHT:%s', e)
             pass
 
@@ -200,12 +202,11 @@ def all_children():
             LOGGER.debug('QUERY:%s', 'DONE')
             LOGGER.debug('QUERY:%s', 'PRINTING:results...')
             # Print Results
-            str_filter = lambda x : query_parser.unformat_entity(x)
-            print_results(input, results, str_filter)
+            print_results(input, results, query_parser)
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
             # Ignore Exceptions
-            flash('"{}" resulted in an error: {}'.format(query, e))
+            flash('"{}" resulted in an error: {}'.format(input, e))
             LOGGER.error('CAUGHT:%s', e)
             pass
 
@@ -235,12 +236,11 @@ def sparql():
             LOGGER.debug('QUERY:%s', 'DONE')
             LOGGER.debug('QUERY:%s', 'PRINTING:results...')
             # Print Results
-            str_filter = lambda x : query_parser.unformat_entity(x)
-            print_results(input, results, str_filter)
+            print_results(input, results, query_parser)
             LOGGER.debug('QUERY:%s', 'PRINTING:DONE')
         except Exception as e:
             # Ignore Exceptions
-            flash('"{}" resulted in an error: {}'.format(query, e))
+            flash('"{}" resulted in an error: {}'.format(input, e))
             LOGGER.error('CAUGHT:%s', e)
             pass
 
