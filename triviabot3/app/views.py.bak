@@ -1,0 +1,49 @@
+from flask import render_template, flash, redirect
+import rdflib
+from rdflib import Graph, URIRef, BNode, Namespace, Literal
+from rdflib.namespace import RDF, FOAF, RDFS, OWL
+from app import app
+from .forms import QueryForm
+
+import logging
+LOGGER = logging.getLogger(__name__)
+handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s:%(filename)s:%(lineno)3s:%(levelname)5s:%(funcName)s:%(message)s')
+handler.setFormatter(formatter)
+LOGGER.addHandler(handler)
+LOGGER.setLevel(logging.DEBUG)
+
+graph = rdflib.Graph()
+LOGGER.debug('PARSINGGGGG')
+OWL_FILE='http://jamesbilous.com/static/test.owl'
+OWL_FILE='app/static/sw.owl'
+graph.parse(OWL_FILE)
+graph.bind("swdb", Namespace("http://starwars.wikia.com/star_wars_ontology.owl#"))  
+graph.bind("owl", Namespace("http://www.w3.org/2002/07/owl#"))
+LOGGER.debug('DONE PARSINGGGGG')
+
+@app.route('/')
+@app.route('/index')
+def index():
+    form = QueryForm()
+    return render_template('query.html',
+                            title='Star Wars Trivia Bot',
+                            form=form)
+
+@app.route('/query', methods=['GET', 'POST'])
+def query():
+    QUERY_STRING='''SELECT ?title WHERE {
+                    ?subject rdfs:subClassOf swdb:{} . 
+                    ?subject owl:title ?title .
+                }'''
+    form = QueryForm()
+    if form.validate_on_submit():
+        query = form.query.data.replace("What are types of ", "")
+        query = query.replace(" ", "_")
+        LOGGER.debug('QUERY:%s', query)
+        result = graph.query(QUERY_STRING.format(query))
+        for row in result:
+            item = "%s"%row
+            flash(item.replace("_"," "))
+
+    return redirect('/index')
